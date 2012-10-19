@@ -1,0 +1,306 @@
+NVIDIA	GeForce GTX 470M SLI
+NVIDIA	GeForce GTX 480M SLI
+AMD	Radeon HD 6970M Crossfire	Blackcomb XT
+NVIDIA	GeForce GTX 460M SLI
+ATI	Mobility Radeon HD 5870 Crossfire	Broadway-XT
+NVIDIA	GeForce GTX 485M
+NVIDIA	GeForce GTX 285M SLI
+AMD	Radeon HD 6970M	Blackcomb XT
+NVIDIA	GeForce GTX 280M SLI
+AMD	Radeon HD 6950M	Blackcomb Pro
+ATI	Mobility Radeon HD 4870 X2
+NVIDIA	GeForce GTX 470M
+NVIDIA	GeForce GTX 480M
+NVIDIA	GeForce GTX 260M SLI
+NVIDIA	GeForce 9800M GTX SLI
+ATI	Mobility Radeon HD 5870	Broadway-XT
+NVIDIA	Quadro 5000M
+AMD	Radeon HD 6870M
+ATI	FirePro M7820
+NVIDIA	GeForce GTX 460M
+NVIDIA	Quadro FX 3800M
+NVIDIA	GeForce GTX 285M
+ATI	Mobility Radeon HD 4870
+NVIDIA	GeForce GTX 280M
+NVIDIA	GeForce 9800M GT SLI
+NVIDIA	GeForce 9800M GTS SLI
+ATI	Mobility Radeon HD 3870 X2
+NVIDIA	GeForce 8800M GTX SLI
+ATI	Mobility Radeon HD 3850 X2
+NVIDIA	Quadro FX 3700M
+ATI	Mobility Radeon HD 4860
+ATI	FirePro M7740
+ATI	Mobility Radeon HD 4850
+NVIDIA	GeForce GTX 260M
+NVIDIA	GeForce 9800M GTX
+NVIDIA	Quadro FX 2800M
+NVIDIA	GeForce GT 555M
+NVIDIA	GeForce 9800M GT
+NVIDIA	GeForce 8800M GTX
+NVIDIA	Quadro FX 3600M
+AMD	Radeon HD 6850M	Granville Pro/LP
+ATI	Mobility Radeon HD 5850	Broadway-PRO
+NVIDIA	GeForce GTS 360M
+NVIDIA	GeForce GT 550M
+NVIDIA	GeForce GT 445M
+NVIDIA	GeForce GTS 260M
+NVIDIA	GeForce GTS 160M
+NVIDIA	GeForce 9800M GTS
+AMD	Radeon HD 6830M	Granville-LP
+ATI	Mobility Radeon HD 5830	Broadway
+NVIDIA	GeForce 9800M GS
+ATI	Mobility Radeon HD 4830
+NVIDIA	GeForce GTS 150M
+NVIDIA	GeForce 8800M GTS
+AMD	Radeon HD 6770M	Whistler-XT
+AMD	Radeon HD 6750M	Whistler-PRO
+ATI	Mobility Radeon HD 5770	Madison-XT
+AMD	Radeon HD 6730M	Whistler-XT
+AMD	Radeon HD 6570M	Capilano
+ATI	Mobility Radeon HD 5750	Madison-XT
+NVIDIA	GeForce GT 540M
+ATI	Mobility Radeon HD 5730	Madison
+ATI	FirePro M5800	Madison
+NVIDIA	GeForce GT 435M
+AMD	Radeon HD 6650M	Whistler-PRO
+AMD	Radeon HD 6550M	Capilano-PRO
+AMD	Radeon HD 6630M	Whistler-LP
+NVIDIA	GeForce GTS 250M
+NVIDIA	GeForce GTS 350M
+ATI	Mobility Radeon HD 5650	Madison Pro
+AMD	Radeon HD 6530M	Capilano-LP
+NVIDIA	GeForce GT 525M
+ATI	Mobility Radeon HD 565v
+ATI	Mobility Radeon HD 4670
+NVIDIA	Quadro FX 1800M
+NVIDIA	GeForce GT 425M
+NVIDIA	GeForce 9700M GTS
+NVIDIA	Quadro FX 2700M
+NVIDIA	GeForce GT 335M
+ATI	Mobility Radeon HD 3870
+ATI	Mobility Radeon HD 5165
+ATI	Mobility Radeon HD 560v
+ATI	Mobility Radeon HD 4650
+NVIDIA	GeForce Go 7950 GTX SLI
+NVIDIA	GeForce Go 7900 GTX SLI
+ATI	Mobility Radeon HD 3850
+NVIDIA	GeForce GT 420M
+NVIDIA	GeForce GT 330M
+NVIDIA	Quadro FX 880M
+NVIDIA	Quadro NVS 5100M
+NVIDIA	GeForce GT 240M
+NVIDIA	GeForce Go 7950 GTX
+NVIDIA	Quadro FX 3500M
+NVIDIA	GeForce 8700M GT SLI
+NVIDIA	GeForce 9700M GT
+NVIDIA	GeForce GT 230M
+NVIDIA	GeForce GT 520M
+ATI	Mobility Radeon HD 550v
+NVIDIA	GeForce GT 325M
+NVIDIA	GeForce Go 7800 GTX SLI
+NVIDIA	GeForce 8600M GT SLI
+NVIDIA	GeForce Go 7900 GS SLI
+NVIDIA	GeForce GT 130M
+NVIDIA	GeForce Go 7900 GTX
+NVIDIA	Quadro FX 2500M
+NVIDIA	GeForce 9650M GT
+NVIDIA	GeForce 9650M GS
+NVIDIA	GeForce 8700M GT
+NVIDIA	Quadro FX 1700M
+NVIDIA	Quadro FX 1600M
+AMD	Radeon HD 6490M	Seymore XT
+NVIDIA	GeForce Go 7800 GTX
+NVIDIA	GeForce Go 7900 GS
+NVIDIA	Quadro NVS 320M
+NVIDIA	Quadro FX 1500M
+NVIDIA	GeForce 9600M GT
+NVIDIA	GeForce GT 220M
+NVIDIA	Quadro FX 770M
+NVIDIA	GeForce GT 120M
+NVIDIA	GeForce GT 320M
+ATI	Mobility Radeon HD 3670
+ATI	Mobility FireGL V5725
+ATI	Mobility Radeon HD 2600 XT
+ATI	Mobility Radeon X1900
+ATI	Mobility Radeon X1800XT
+ATI	Mobility Radeon X1800
+NVIDIA	GeForce Go 6800 Ultra
+NVIDIA	GeForce Go 7800	G70M
+NVIDIA	GeForce 9600M GS
+NVIDIA	GeForce 9500M GS
+AMD	Radeon HD 6470M	Seymore XT
+ATI	Mobility Radeon HD 2700
+NVIDIA	GeForce GT 415M
+AMD	Radeon HD 6370M	Robson XT
+ATI	Mobility Radeon HD 5470	Park XT
+ATI	Mobility Radeon HD 3650
+ATI	Mobility FireGL V5700
+ATI	Mobility Radeon HD 5145
+ATI	Mobility Radeon HD 545v
+NVIDIA	GeForce 320M
+ATI	Mobility Radeon HD 4570
+AMD	Radeon HD 6450M	Seymore-PRO
+NVIDIA	GeForce 410M
+ATI	Mobility Radeon HD 5450	Park Pro
+NVIDIA	Quadro FX 570M
+NVIDIA	GeForce 8600M GT
+ATI	Mobility Radeon HD 2600
+Intel	HD Graphics 3000	Sandy Bridge
+NVIDIA	GeForce 315M
+NVIDIA	GeForce 310M
+NVIDIA	Quadro FX 380M
+NVIDIA	GeForce G210M
+NVIDIA	Quadro NVS 3100M
+NVIDIA	GeForce Go 7600 GT
+NVIDIA	GeForce 9500M G
+NVIDIA	GeForce 8600M GS
+NVIDIA	Quadro NVS 2100M
+NVIDIA	GeForce Go 7700
+NVIDIA	GeForce Go 6800
+NVIDIA	Quadro FX Go 1400
+ATI	Mobility Radeon X800XT	M28Pro
+AMD	Radeon HD 6430M	Seymore-LP
+ATI	Mobility Radeon HD 5430	Park LP
+ATI	Mobility Radeon HD 540v
+ATI	Mobility Radeon HD 4550
+AMD	Radeon HD 6350M	Robson Pro
+ATI	Mobility Radeon HD 4530
+ATI	Mobility Radeon HD 4350
+ATI	Mobility Radeon HD 530v
+NVIDIA	GeForce 305M
+ATI	Mobility Radeon X1700
+ATI	Mobility FireGL V5250
+ATI	Mobility Radeon X2500
+NVIDIA	GeForce Go 7600	G73M
+NVIDIA	Quadro NVS 300M	G72GLM
+ATI	Mobility Radeon X800
+ATI	Mobility Radeon X1600
+ATI	Mobility FireGL V5200
+ATI	Mobility Radeon 9800
+NVIDIA	GeForce Go 6600
+ATI	Mobility Radeon X1450
+ATI	Mobility Radeon X700
+ATI	Mobility FireGL V5000
+NVIDIA	GeForce G110M
+AMD	Radeon HD 6330M	Robson LP
+ATI	Mobility Radeon HD 4330
+NVIDIA	GeForce 8400M GT
+NVIDIA	Quadro NVS 140M	G84M
+NVIDIA	GeForce G107M
+NVIDIA	GeForce G105M
+NVIDIA	GeForce 9500M GE
+NVIDIA	GeForce G103M
+NVIDIA	GeForce G102M
+NVIDIA	GeForce G205M
+NVIDIA	GeForce 9400M (G) / ION (LE)
+AMD	Radeon HD 6310	Zacate
+NVIDIA	ION 2	GT218-ION-A3
+ATI	Mobility Radeon HD 3470 Hybrid X2	M82-XT
+NVIDIA	GeForce 9400M GeForceBoost
+ATI	Mobility Radeon HD 3470	M82-XT
+NVIDIA	GeForce 9300M G
+NVIDIA	GeForce 9300M GS
+NVIDIA	Quadro FX 370M
+NVIDIA	Quadro NVS 160M
+Intel	HD Graphics 2000	Sandy Bridge
+NVIDIA	GeForce 9200M GS
+ATI	Mobility Radeon HD 3450
+ATI	Mobility Radeon HD 3430
+ATI	Mobility Radeon HD 3410
+ATI	Mobility Radeon HD 2400 XT
+ATI	Radeon HD 4270
+ATI	Radeon HD 4250
+AMD	Radeon HD 6250	Zacate
+ATI	Radeon HD 4200
+Intel	Graphics Media Accelerator HD Graphics	GMA HD
+NVIDIA	Quadro NVS 150M
+NVIDIA	Quadro FX 360M
+ATI	Mobility Radeon X1350
+ATI	Mobility Radeon X1400
+NVIDIA	GeForce 9100M G
+NVIDIA	GeForce 8400M GS
+NVIDIA	Quadro NVS 135M	G86M
+ATI	Mobility Radeon HD 2400
+ATI	Radeon HD 4100
+ATI	Radeon HD 3200
+ATI	Radeon HD 4225	RS880M
+ATI	Mobility Radeon HD 3400
+ATI	Radeon HD 3100	RS780MC
+NVIDIA	GeForce 8400M G	G86M
+NVIDIA	GeForce 8200M G	MCP77MV MCP79MVL
+Intel	Graphics Media Accelerator (GMA) 4700MHD	Montevina
+Intel	Graphics Media Accelerator (GMA) 4500MHD	Montevina
+Intel	Graphics Media Accelerator (GMA) 4500M
+Intel	4 Series Express Chipset
+NVIDIA	Quadro NVS 130M	G86M
+NVIDIA	GeForce Go 7400	G72M
+NVIDIA	Quadro FX 350M	G72M
+NVIDIA	Quadro NVS 120M	G72M
+NVIDIA	GeForce Go 7300	G72M
+NVIDIA	Quadro NVS 110M	G72M
+ATI	Mobility Radeon X600
+ATI	Mobility FireGL V3200
+ATI	Mobility FireGL V3100
+ATI	Mobility Radeon X2300
+ATI	Mobility Radeon HD 2300
+ATI	Mobility Radeon 9700
+ATI	Mobility FireGL T2e
+ATI	Mobility Radeon X1300
+NVIDIA	GeForce4 4200 Go
+ATI	Mobility Radeon 9600
+ATI	Mobility FireGL T2
+ATI	Mobility Radeon 9550
+NVIDIA	GeForce Go 7200	G72M
+NVIDIA	GeForce Go 6400
+ATI	Mobility Radeon X300
+NVIDIA	GeForce Go 6250
+NVIDIA	GeForce Go 6200
+NVIDIA	GeForce FX Go 5700
+NVIDIA	Quadro FX Go 1000
+NVIDIA	GeForce FX Go 5600 / 5650
+ATI	Radeon Xpress X1270	M690T
+ATI	Radeon Xpress X1250	RS690M
+ATI	Radeon Xpress 1250
+ATI	Radeon Xpress X1200
+Intel	Graphics Media Accelerator (GMA) X3100	Crestline
+NVIDIA	GeForce 7190M
+NVIDIA	GeForce 7150M
+ATI	Radeon Xpress 1150
+NVIDIA	GeForce Go 6150
+NVIDIA	GeForce Go 6100
+NVIDIA	GeForce 7000M
+ATI	Mobility Radeon 9200
+ATI	Mobility FireGL 9000
+NVIDIA	GeForce FX Go 5200
+ATI	Mobility Radeon 9000
+NVIDIA	GeForce 4 488 Go
+NVIDIA	GeForce 4 460 Go
+NVIDIA	GeForce 4 440 Go
+NVIDIA	GeForce 4 420 Go
+Intel	Graphics Media Accelerator 3150	Pineview
+Intel	Graphics Media Accelerator (GMA) 950
+ATI	Mobility Radeon 7500
+ATI	Mobility FireGL 7800
+Intel	Graphics Media Accelerator (GMA) 900
+ATI	Radeon Xpress 200M
+ATI	Radeon Xpress 1100
+SIS	Mirage 3+ 672MX	SISM672
+SIS	Mirage 3 671MX	671MX
+Intel	Graphics Media Accelerator (GMA) 600
+Intel	Graphics Media Accelerator (GMA) 500
+NVIDIA	GeForce 3 Go
+NVIDIA	GeForce 2 Go (200 / 100)
+ATI	Mobility Radeon 9100
+ATI	Mobility Radeon 9000
+ATI	Mobility Radeon M7
+ATI	Mobility Radeon M6
+VIA	Chrome9 HC
+Intel	Extreme Graphics 2	Montara
+ATI	Mobility Radeon 7000
+ATI	Radeon IGP 340M
+ATI	Radeon IGP 320M
+VIA	S3G UniChrome Pro II	Zoetrope
+VIA	S3G UniChrome Pro	Zoetrope
+VIA	Castle Rock	CLE266
+SIS	Mirage 2 M760	M760
+SIS	Mirage M661FX

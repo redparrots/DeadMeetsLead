@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6913286-7A1B-4661-A505-0EBFDC769E01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>../Keldyn.pfx</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BETA_RELEASE JMOD_IGNORENOTIMPL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugHard|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DebugHard\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DEBUG_HARD BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugHard|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugHard\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DEBUG_HARD BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BetaRelease|AnyCPU' ">
+    <OutputPath>bin\BetaRelease\</OutputPath>
+    <DefineConstants>TRACE;BETA_RELEASE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BetaRelease|x86' ">
+    <OutputPath>bin\x86\BetaRelease\</OutputPath>
+    <DefineConstants>TRACE;BETA_RELEASE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Boundings.cs" />
+    <Compile Include="Bounding\Box.cs" />
+    <Compile Include="Bounding\Chain.cs" />
+    <Compile Include="Bounding\Cylinder.cs" />
+    <Compile Include="Bounding\Frustum.cs" />
+    <Compile Include="Bounding\GroundPiece.cs" />
+    <Compile Include="Bounding\Line.cs" />
+    <Compile Include="Bounding\NonfittableBounding.cs" />
+    <Compile Include="Bounding\Region.cs" />
+    <Compile Include="BruteForceBoundingVolumeHierarchy.cs" />
+    <Compile Include="CellBSP.cs" />
+    <Compile Include="Coroutine.cs" />
+    <Compile Include="DeepComparer.cs" />
+    <Compile Include="FileSystem.cs" />
+    <Compile Include="IBoundingVolumeHierarchy.cs" />
+    <Compile Include="IMotion.cs" />
+    <Compile Include="MotionOld\NPC.cs" />
+    <Compile Include="MotionOld\Object.cs" />
+    <Compile Include="MotionOld\SemiPhysicalObject.cs" />
+    <Compile Include="MotionOld\Simulation.cs" />
+    <Compile Include="MotionOld\Unit.cs" />
+    <Compile Include="MotionOld\Zombie.cs" />
+    <Compile Include="Interpolator.cs" />
+    <Compile Include="Motion\DummyMotion.cs" />
+    <Compile Include="Motion\NPC.cs" />
+    <Compile Include="Motion\Object.cs" />
+    <Compile Include="Motion\Projectile.cs" />
+    <Compile Include="Motion\Settings.cs" />
+    <Compile Include="Motion\Simulation.cs" />
+    <Compile Include="Motion\ThreadSimulationProxy.cs" />
+    <Compile Include="Motion\Unit.cs" />
+    <Compile Include="NearestNeighbours.cs" />
+    <Compile Include="Int2Color.cs" />
+    <Compile Include="Intersection.cs" />
+    <Compile Include="IWorldProbe.cs" />
+    <Compile Include="KDTree.cs" />
+    <Compile Include="Math.cs" />
+    <Compile Include="Pathing\Grid.cs" />
+    <Compile Include="Pathing\NavMesh.cs" />
+    <Compile Include="PriorityQueue.cs" />
+    <Compile Include="ProgramConfigurationInformation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quadtree.cs" />
+    <Compile Include="SpatialRelation.cs" />
+    <Compile Include="StringLocalizationStorage.cs" />
+    <Compile Include="SweepAndPrune.cs" />
+    <Compile Include="Tuple.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="WindowsForms\DictionaryPropertyGridAdapter.cs" />
+    <Compile Include="WindowsForms\PromptDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForms\PromptDialog.Designer.cs">
+      <DependentUpon>PromptDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForms\SelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForms\SelectDialog.Designer.cs">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForms\SelectTypeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForms\StringLocalizationStorageEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WindowsForms\StringLocalizationStorageEditor.Designer.cs">
+      <DependentUpon>StringLocalizationStorageEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmlFormatter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WindowsForms\PromptDialog.resx">
+      <DependentUpon>PromptDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForms\SelectDialog.resx">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForms\StringLocalizationStorageEditor.resx">
+      <DependentUpon>StringLocalizationStorageEditor.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

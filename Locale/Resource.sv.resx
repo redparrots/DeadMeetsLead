@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AchiAllIn" xml:space="preserve">
+    <value>Alla i</value>
+  </data>
+  <data name="AchiAmmoConservative" xml:space="preserve">
+    <value>Ammo konservativ</value>
+  </data>
+  <data name="AchiBarbecue" xml:space="preserve">
+    <value>Barbecue</value>
+  </data>
+  <data name="AchiBloodboil" xml:space="preserve">
+    <value>Bloodboil</value>
+  </data>
+  <data name="AchiBloodSweatAndTears" xml:space="preserve">
+    <value>Blod, svett och tårar</value>
+  </data>
+  <data name="AchiBoom" xml:space="preserve">
+    <value>BAM</value>
+  </data>
+  <data name="AchiBoxcutter" xml:space="preserve">
+    <value>Boxcutter</value>
+  </data>
+  <data name="AchiBraindead" xml:space="preserve">
+    <value>Braindead</value>
+  </data>
+  <data name="AchiBurningHisMinions" xml:space="preserve">
+    <value>Burning hans anhang</value>
+  </data>
+  <data name="AchiCallForthTheDemon" xml:space="preserve">
+    <value>Framkalla demonen</value>
+  </data>
+  <data name="AchiChampionOfTheDead" xml:space="preserve">
+    <value>Champion av de döda</value>
+  </data>
+  <data name="AchiCleanseTheLands" xml:space="preserve">
+    <value>Rengör landar</value>
+  </data>
+  <data name="AchiCompleteAllLevels" xml:space="preserve">
+    <value>Klara alla nivåer.</value>
+  </data>
+  <data name="AchiCompleteAmbushWithoutHitting" xml:space="preserve">
+    <value>Komplett "Ambush" utan att träffa några zombies.</value>
+  </data>
+  <data name="AchiCompleteCommandersWithoutHit" xml:space="preserve">
+    <value>Komplett "Befälhavare" utan att ta en träff från någon zombies.</value>
+  </data>
+  <data name="AchiCompleteFireAwayWithoutUsing" xml:space="preserve">
+    <value>Komplett "Fire Away!" utan att använda varierade vapen.</value>
+  </data>
+  <data name="AchiCompleteGauntletInLessThanXSeconds" xml:space="preserve">
+    <value>Komplett "Gauntlet" på mindre än {0} sekunder.</value>
+  </data>
+  <data name="AchiCompleteGodSpeedLessThanXSeconds" xml:space="preserve">
+    <value>Komplett "Gud Speed" på mindre än {0} sekunder.</value>
+  </data>
+  <data name="AchiCompleteReverseGauntletWithoutChests" xml:space="preserve">
+    <value>Komplett "Reverse Gauntlet" utan att döda någon regelbunden kistor.</value>
+  </data>
+  <data name="AchiCompleteTheGame" xml:space="preserve">
+    <value>Klara spelet.</value>
+  </data>
+  <data name="AchiDeadMeetsLead" xml:space="preserve">
+    <value>Dead Uppfyller Bly</value>
+  </data>
+  <data name="AchiDestroyAllBoxesOnTheCliff" xml:space="preserve">
+    <value>Förstör alla lådor på "The Cliff" inom 2 minuter.</value>
+  </data>
+  <data name="AchiGainRageLevel4OnLevelA" xml:space="preserve">
+    <value>Få ilska nivå 4 på "Stranded".</value>
+  </data>
+  <data name="AchiGauntletChallengeX" xml:space="preserve">
+    <value>Gauntlet utmaning {0}</value>
+  </data>
+  <data name="AchiGettingRidOfTheirBoss" xml:space="preserve">
+    <value>Att bli av med chefen.</value>
+  </data>
+  <data name="AchiGodSpeedChallengeX" xml:space="preserve">
+    <value>Gud Fartutmaning {0}</value>
+  </data>
+  <data name="AchiGoingCrazyAndLovingIt" xml:space="preserve">
+    <value>Bli galen och älska det</value>
+  </data>
+  <data name="AchiHurtButNotDead" xml:space="preserve">
+    <value>Hurt, men inte döda</value>
+  </data>
+  <data name="AchiIAmCalmTrustMe" xml:space="preserve">
+    <value>Jag är lugn, lita på mig</value>
+  </data>
+  <data name="AchiIGotLeadInMyVeins" xml:space="preserve">
+    <value>Jag fick bly i mina ådror</value>
+  </data>
+  <data name="AchiIntentionToWin" xml:space="preserve">
+    <value>Avsikt att vinna</value>
+  </data>
+  <data name="AchiInTheirFace" xml:space="preserve">
+    <value>I ansiktet</value>
+  </data>
+  <data name="AchiIStillHaveMyWeapons" xml:space="preserve">
+    <value>Jag har fortfarande mina vapen</value>
+  </data>
+  <data name="AchiKillTheDemonLord" xml:space="preserve">
+    <value>Döda Demon Lord</value>
+  </data>
+  <data name="AchiKillTheWolfBoss" xml:space="preserve">
+    <value>Döda vargen</value>
+  </data>
+  <data name="AchiKillTheZombieBoss" xml:space="preserve">
+    <value>Döda Zombie ledare</value>
+  </data>
+  <data name="AchiKillXZombiesInLessThanYSeconds" xml:space="preserve">
+    <value>Döda {0} zombies på mindre än {1}.</value>
+  </data>
+  <data name="AchiLandAHitForOverXDamage" xml:space="preserve">
+    <value>Landa en träff för över {0} skador.</value>
+  </data>
+  <data name="AchiLetTheBullHandleIt" xml:space="preserve">
+    <value>Låt tjuren hantera det</value>
+  </data>
+  <data name="AchiMake10ConsecutiveTries" xml:space="preserve">
+    <value>Gör 10 på varandra följande försök på en enda karta.</value>
+  </data>
+  <data name="AchiMake20ConsecutiveTries" xml:space="preserve">
+    <value>Gör 20 på varandra följande försök på en enda karta.</value>
+  </data>
+  <data name="AchiMake50ConsecutiveTries" xml:space="preserve">
+    <value>Gör 50 på varandra följande försök på en enda karta.</value>
+  </data>
+  <data name="AchiMake5ConsecutiveTries" xml:space="preserve">
+    <value>Gör 5 på varandra följande försök på en enda karta.</value>
+  </data>
+  <data name="AchiMakeABullChargeZombie" xml:space="preserve">
+    <value>Gör en tjur ut en zombie till döds.</value>
+  </data>
+  <data name="AchiMakeAClericKillAZombie" xml:space="preserve">
+    <value>Gör en prästman döda en zombie.</value>
+  </data>
+  <data name="AchiMedicalAttention" xml:space="preserve">
+    <value>Läkarvård?</value>
+  </data>
+  <data name="AchiMentalMeltdown" xml:space="preserve">
+    <value>Mental härdsmälta</value>
+  </data>
+  <data name="AchiNeedToSharpenMyWeapons" xml:space="preserve">
+    <value>Behöver vässa mina vapen</value>
+  </data>
+  <data name="AchiNeverGonnaLetThemGo" xml:space="preserve">
+    <value>Kommer aldrig att låta dem gå</value>
+  </data>
+  <data name="AchiNoPatience" xml:space="preserve">
+    <value>Ingen tålamod</value>
+  </data>
+  <data name="AchiOutOfTheBox" xml:space="preserve">
+    <value>Ur lådan</value>
+  </data>
+  <data name="AchiPacifist" xml:space="preserve">
+    <value>Pacifistiska</value>
+  </data>
+  <data name="AchiReachRageLevelXAnyLevel" xml:space="preserve">
+    <value>Nå raseri nivå {0} på någon nivå.</value>
+  </data>
+  <data name="AchiSlay10000Zombies" xml:space="preserve">
+    <value>Slay 10.000 Zombies.</value>
+  </data>
+  <data name="AchiSlay1000Zombies" xml:space="preserve">
+    <value>Slay 1000 Zombies.</value>
+  </data>
+  <data name="AchiSlay50000Zombies" xml:space="preserve">
+    <value>Slay 50.000 Zombies.</value>
+  </data>
+  <data name="AchiSlay5000Zombies" xml:space="preserve">
+    <value>Slay 5000 Zombies.</value>
+  </data>
+  <data name="AchiSneaky" xml:space="preserve">
+    <value>Sneaky</value>
+  </data>
+  <data name="AchiTakeXDamageDuringASingleTry" xml:space="preserve">
+    <value>Ta {0} skador under ett enda försök.</value>
+  </data>
+  <data name="AchiTheDemonLordsPet" xml:space="preserve">
+    <value>Demonen Herrens husdjur</value>
+  </data>
+  <data name="AchiZombieMassacre" xml:space="preserve">
+    <value>Zombie massaker</value>
+  </data>
+  <data name="AchiCompleteGauntletInLessThan1Minute" xml:space="preserve">
+    <value>Komplett "Gauntlet" på mindre än 1 minut.</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Ljud</value>
+  </data>
+  <data name="ControlMelee" xml:space="preserve">
+    <value>Närstridsvapen</value>
+  </data>
+  <data name="ControlMoveBackward" xml:space="preserve">
+    <value>Flytta bakåt</value>
+  </data>
+  <data name="ControlMoveForward" xml:space="preserve">
+    <value>Gå framåt</value>
+  </data>
+  <data name="ControlRanged" xml:space="preserve">
+    <value>Varierade Vapen</value>
+  </data>
+  <data name="Controls" xml:space="preserve">
+    <value>Kontroller</value>
+  </data>
+  <data name="ControlSettingsTitle" xml:space="preserve">
+    <value>Kontroller</value>
+  </data>
+  <data name="ControlStrafeLeft" xml:space="preserve">
+    <value>Strafe vänster</value>
+  </data>
+  <data name="ControlStrafeRight" xml:space="preserve">
+    <value>Strafe Höger</value>
+  </data>
+  <data name="DeadMeetsLead" xml:space="preserve">
+    <value>Dead Uppfyller Bly</value>
+  </data>
+  <data name="ErrorFailInitSoundDevice" xml:space="preserve">
+    <value>Misslyckades med att initiera ljud enhet. Spelet kan fortfarande köra, men kommer inte att kunna spela upp ljud.</value>
+  </data>
+  <data name="ErrorFailInitSoundDeviceTitle" xml:space="preserve">
+    <value>Misslyckades med att initiera ljud enhet</value>
+  </data>
+  <data name="ErrorFailSetAudioDevice" xml:space="preserve">
+    <value>Kan inte ställa in ljudenheten. Se till att din ljudenhet (s) är / är aktiverade och fungerar. Fram till dess ditt spel kommer inte att höras. Fel: {0}</value>
+  </data>
+  <data name="ErrorFailSetAudioDeviceTitle" xml:space="preserve">
+    <value>Kan inte ställa in ljudenheten</value>
+  </data>
+  <data name="ErrorLowShaderModel" xml:space="preserve">
+    <value>Ditt grafikkort stöder inte Shader Model 3.0 eller högre. Spelet stängs av.</value>
+  </data>
+  <data name="ErrorUnhandledException" xml:space="preserve">
+    <value>Ett oväntat fel har inträffat. Client avstängning ...</value>
+  </data>
+  <data name="ErrorWrongFrameworkVersion" xml:space="preserve">
+    <value>Det verkar du inte har en korrekt inställning av. NET installerat-ram. Spelet kan inte köra som planerat eller inte alls. {0} Vill du fortsätta ändå?</value>
+  </data>
+  <data name="ErrorWrongFrameworkVersionTitle" xml:space="preserve">
+    <value>Missing. NET-framework installation</value>
+  </data>
+  <data name="GenAchievementCaps" xml:space="preserve">
+    <value>PRESTATION</value>
+  </data>
+  <data name="GenApply" xml:space="preserve">
+    <value>Ansök</value>
+  </data>
+  <data name="GenCancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="GenClose" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="GenContinue" xml:space="preserve">
+    <value>Fortsätt</value>
+  </data>
+  <data name="GenLoading" xml:space="preserve">
+    <value>Laddar</value>
+  </data>
+  <data name="GenMainMenu" xml:space="preserve">
+    <value>Huvudmeny</value>
+  </data>
+  <data name="GenMap" xml:space="preserve">
+    <value>Karta</value>
+  </data>
+  <data name="GenMeleeWeapon" xml:space="preserve">
+    <value>Närstridsvapen</value>
+  </data>
+  <data name="GenMenu" xml:space="preserve">
+    <value>Meny</value>
+  </data>
+  <data name="GenNext" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="GenOffline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="GenOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="GenOnline" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="GenPage" xml:space="preserve">
+    <value>Sida</value>
+  </data>
+  <data name="GenPlayAgain" xml:space="preserve">
+    <value>Spela igen</value>
+  </data>
+  <data name="GenPrev" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="GenQuit" xml:space="preserve">
+    <value>Avsluta</value>
+  </data>
+  <data name="GenRangedWeapon" xml:space="preserve">
+    <value>Varierade vapen</value>
+  </data>
+  <data name="GenRequires" xml:space="preserve">
+    <value>Kräver</value>
+  </data>
+  <data name="GenRestart" xml:space="preserve">
+    <value>Starta om</value>
+  </data>
+  <data name="GenResume" xml:space="preserve">
+    <value>Återuppta</value>
+  </data>
+  <data name="GenTime" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="HelpGhostBullet" xml:space="preserve">
+    <value>Försök att utföra ett skott Ghost kula. Tryck ({0}).</value>
+  </data>
+  <data name="HelpHit" xml:space="preserve">
+    <value>Försök att träffa en zombie. Gå upp till en och tryck på ({0}).</value>
+  </data>
+  <data name="HelpJump" xml:space="preserve">
+    <value>Du kan hoppa genom att trycka ({0}).</value>
+  </data>
+  <data name="HelpMapScroll" xml:space="preserve">
+    <value>Du kan flytta runt på kartan genom att klicka och dra den.</value>
+  </data>
+  <data name="HelpPurchaseWeapon" xml:space="preserve">
+    <value>Du kan köpa vapen för silvermynt i arsenal.</value>
+  </data>
+  <data name="HelpRifle" xml:space="preserve">
+    <value>Prova att skjuta med ditt gevär. Tryck ({0}) för att rusta geväret och eld genom att trycka ({1}).</value>
+  </data>
+  <data name="HelpSlam" xml:space="preserve">
+    <value>Prova att göra en Slam. Tryck ({0}).</value>
+  </data>
+  <data name="HelpTipDontAlwaysNeedToKill" xml:space="preserve">
+    <value>Tips: Du behöver inte alltid måste döda alla zombies.</value>
+  </data>
+  <data name="HelpTipKeepPushingForward" xml:space="preserve">
+    <value>Tips: Håll driva!</value>
+  </data>
+  <data name="HelpTipRageMakesYourPowerful" xml:space="preserve">
+    <value>Tips: Att få en massa ilska kan göra dig ganska kraftfull.</value>
+  </data>
+  <data name="HelpTipSureAboutTheWay" xml:space="preserve">
+    <value>Tips: Är du säker på att du tar rätt sätt?</value>
+  </data>
+  <data name="HelpTipTrickTheBull" xml:space="preserve">
+    <value>Tips: Kan du lura tjuren på något sätt?</value>
+  </data>
+  <data name="HelpTryOtherWeapons" xml:space="preserve">
+    <value>Har du försökt att använda andra kombinationer av vapen?</value>
+  </data>
+  <data name="HelpWASD" xml:space="preserve">
+    <value>Försök att flytta runt. Forward: ({0}) Rygg: ({1}) Vänster: ({2}) Höger: ({3})</value>
+  </data>
+  <data name="HUDAmmunition" xml:space="preserve">
+    <value>Ammunition</value>
+  </data>
+  <data name="HUDGhostBullet" xml:space="preserve">
+    <value>Ghost bullet {0} En lång rad speciell attack som skjuter marken nedanför markören. Har ett visst utbud.</value>
+  </data>
+  <data name="HUDHitPoints" xml:space="preserve">
+    <value>Träffpoäng {0} / {1} förnyar långsamt</value>
+  </data>
+  <data name="HUDMelee" xml:space="preserve">
+    <value>Melee attack {0}</value>
+  </data>
+  <data name="HUDRage" xml:space="preserve">
+    <value>Rage Döda enheter för att få raseri. När du har tillräckligt får du ett raseri nivå.</value>
+  </data>
+  <data name="HUDRageLevel" xml:space="preserve">
+    <value>Rage nivå högre raseri nivåer gör dig starkare</value>
+  </data>
+  <data name="HUDRanged" xml:space="preserve">
+    <value>Varierade attack {0}</value>
+  </data>
+  <data name="HUDSlam" xml:space="preserve">
+    <value>Slam {0} En extra kraftfull melee attack som också STUNS närliggande fiender. Förbrukar Rage.</value>
+  </data>
+  <data name="HUDSwitchMelee" xml:space="preserve">
+    <value>Växla till närstridsvapen {0}</value>
+  </data>
+  <data name="HUDSwitchRange" xml:space="preserve">
+    <value>Växla till varierade vapen {0}</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="ScoreActions" xml:space="preserve">
+    <value>Aktiviteter</value>
+  </data>
+  <data name="ScoreCaughtInNet" xml:space="preserve">
+    <value>Fångad i nätet</value>
+  </data>
+  <data name="ScoreCharacterActions" xml:space="preserve">
+    <value>Tecken åtgärder</value>
+  </data>
+  <data name="ScoreCompletedMapInXTries" xml:space="preserve">
+    <value>Du slutförde kartan i {0} försök.</value>
+  </data>
+  <data name="ScoreDamageDealt" xml:space="preserve">
+    <value>Skador som behandlas</value>
+  </data>
+  <data name="ScoreDamageTaken" xml:space="preserve">
+    <value>Skador som vidtagits</value>
+  </data>
+  <data name="ScoreDefeat" xml:space="preserve">
+    <value>Besegra</value>
+  </data>
+  <data name="ScoreFighter" xml:space="preserve">
+    <value>FIGHTER</value>
+  </data>
+  <data name="ScoreFighterText" xml:space="preserve">
+    <value>Avsluta är för fegisar!</value>
+  </data>
+  <data name="ScoreFrenzy" xml:space="preserve">
+    <value>FRENESI</value>
+  </data>
+  <data name="ScoreFrenzyText" xml:space="preserve">
+    <value>Jag är på ett dödande Spree!</value>
+  </data>
+  <data name="ScoreGhostRifleAccuracy" xml:space="preserve">
+    <value>Ghost Rifle noggrannhet</value>
+  </data>
+  <data name="ScoreGhostRifleShots" xml:space="preserve">
+    <value>Ghost Rifle Shots</value>
+  </data>
+  <data name="ScoreHero" xml:space="preserve">
+    <value>HERO</value>
+  </data>
+  <data name="ScoreHeroText" xml:space="preserve">
+    <value>GRRRRR!</value>
+  </data>
+  <data name="ScoreHitsTaken" xml:space="preserve">
+    <value>vidtas Träffar</value>
+  </data>
+  <data name="ScoreKilledUnits" xml:space="preserve">
+    <value>Dödade enheter</value>
+  </data>
+  <data name="ScoreRewardsAndResults" xml:space="preserve">
+    <value>Belöningar och resultat</value>
+  </data>
+  <data name="ScoreShotgunAccuracy" xml:space="preserve">
+    <value>Shotgun noggrannhet</value>
+  </data>
+  <data name="ScoreShotgunShots" xml:space="preserve">
+    <value>Shotgun skott</value>
+  </data>
+  <data name="ScoreStage" xml:space="preserve">
+    <value>SCEN</value>
+  </data>
+  <data name="ScoreStageText" xml:space="preserve">
+    <value>Avslutat stadium {0}</value>
+  </data>
+  <data name="ScoreStageTextTooltip" xml:space="preserve">
+    <value>Du avslutat stadium {0} för första gången</value>
+  </data>
+  <data name="ScoreStats" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="ScoreSurvivor" xml:space="preserve">
+    <value>EFTERLEVANDE</value>
+  </data>
+  <data name="ScoreSurvivorText" xml:space="preserve">
+    <value>Får den starka segra!</value>
+  </data>
+  <data name="ScoreTotalKilled" xml:space="preserve">
+    <value>Totalt dödades</value>
+  </data>
+  <data name="ScoreVictory" xml:space="preserve">
+    <value>Victory</value>
+  </data>
+  <data name="ScoreYouEarnedGoldCoins" xml:space="preserve">
+    <value>Du har förtjänat {0} guldmynt (s)</value>
+  </data>
+  <data name="ScoreYouEarnedGoldCoinsTooltip" xml:space="preserve">
+    <value>Du har förtjänat dessa guldmynt för att genomföra en ny karta.</value>
+  </data>
+  <data name="ScoreYouIncreasedSilverCoins" xml:space="preserve">
+    <value>Du ökat din silver avkastningen för denna karta med {0} silvermynt (s)</value>
+  </data>
+  <data name="ScoreYouIncreasedSilverCoinsTooltip" xml:space="preserve">
+    <value>Dina tidigare silver avkastningen för denna karta var {0}. Du har nu ökat värdet till {1}.</value>
+  </data>
+  <data name="SettingsNeedRestart" xml:space="preserve">
+    <value>Spelet måste startas om för att de nya inställningarna ska gälla.</value>
+  </data>
+  <data name="SettingsNeedRestartTitle" xml:space="preserve">
+    <value>Behöver omstart av programmet</value>
+  </data>
+  <data name="SoundAmbientVolume" xml:space="preserve">
+    <value>Ambient Volym</value>
+  </data>
+  <data name="SoundAudioDriver" xml:space="preserve">
+    <value>Ljuddrivrutin</value>
+  </data>
+  <data name="SoundEffectsVolume" xml:space="preserve">
+    <value>Ljudvolymen</value>
+  </data>
+  <data name="SoundMasterVolume" xml:space="preserve">
+    <value>Master Volumne</value>
+  </data>
+  <data name="SoundMusicVolume" xml:space="preserve">
+    <value>Musikvolymen</value>
+  </data>
+  <data name="SoundSettingsTitle" xml:space="preserve">
+    <value>Ljudinställningar</value>
+  </data>
+  <data name="Tier1Name" xml:space="preserve">
+    <value>Sydkusterna</value>
+  </data>
+  <data name="Tier2Name" xml:space="preserve">
+    <value>Våtmarkerna</value>
+  </data>
+  <data name="Tier3Name" xml:space="preserve">
+    <value>Duskhaven</value>
+  </data>
+  <data name="Tier4Name" xml:space="preserve">
+    <value>The Dead Marshes</value>
+  </data>
+  <data name="Tier5Name" xml:space="preserve">
+    <value>Western Highlands</value>
+  </data>
+  <data name="Tier6Name" xml:space="preserve">
+    <value>King's Plateau</value>
+  </data>
+  <data name="Tier7Name" xml:space="preserve">
+    <value>The Lost Valley</value>
+  </data>
+  <data name="Tier9Name" xml:space="preserve">
+    <value>Evil Eye Mountain</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="VideoAnimation" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="VideoAntiAliasing" xml:space="preserve">
+    <value>Anti Aliasing</value>
+  </data>
+  <data name="VideoLightingQuality" xml:space="preserve">
+    <value>Ljuskvalitet</value>
+  </data>
+  <data name="VideoOverallVideo" xml:space="preserve">
+    <value>Övergripande Video</value>
+  </data>
+  <data name="VideoResolution" xml:space="preserve">
+    <value>Upplösning</value>
+  </data>
+  <data name="VideoSettingsTitle" xml:space="preserve">
+    <value>Videoinställningar</value>
+  </data>
+  <data name="VideoShadowQuality" xml:space="preserve">
+    <value>Shadow Quality</value>
+  </data>
+  <data name="VideoTerrainQuality" xml:space="preserve">
+    <value>Terräng Kvalitet</value>
+  </data>
+  <data name="VideoTextureFiltering" xml:space="preserve">
+    <value>Texturfiltrering</value>
+  </data>
+  <data name="VideoVerticalSync" xml:space="preserve">
+    <value>Vertikal Sync</value>
+  </data>
+  <data name="VideoWindowMode" xml:space="preserve">
+    <value>Fönsterläge</value>
+  </data>
+  <data name="ErrorOutOfVideoMemory" xml:space="preserve">
+    <value>Du sprang ut ur grafikminne. Prova att sänka inställningarna skuggan kvalitet och försök igen. Spelet stängs av.</value>
+  </data>
+  <data name="GenLCBullets" xml:space="preserve">
+    <value>kulor</value>
+  </data>
+  <data name="GenLCHP" xml:space="preserve">
+    <value>hp</value>
+  </data>
+  <data name="GenLCMinuteShort" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="GenLCSecondsShort" xml:space="preserve">
+    <value>SEK</value>
+  </data>
+  <data name="GenLCTimeLeft" xml:space="preserve">
+    <value>vänster</value>
+  </data>
+  <data name="GenLCRage" xml:space="preserve">
+    <value>raseri</value>
+  </data>
+  <data name="HUDMalariaWarning" xml:space="preserve">
+    <value>Du har vågat för långt ut i djungeln och lockade en tropisk sjukdom. Kom tillbaka till huvudvägen innan den dödar dig!</value>
+  </data>
+  <data name="HUDMalariaWarningTitle" xml:space="preserve">
+    <value>Malaria!</value>
+  </data>
+  <data name="HUDYouRanOutOfTime" xml:space="preserve">
+    <value>Du fick ont ​​om tid</value>
+  </data>
+  <data name="PressEscToSkip" xml:space="preserve">
+    <value>Tryck på ESC för att hoppa</value>
+  </data>
+  <data name="GenLogin" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="GenName" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="GenNew" xml:space="preserve">
+    <value>Nya</value>
+  </data>
+  <data name="GenObjectives" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="GenOptions" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="GenProfile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="GenRemove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="GenUnavailable" xml:space="preserve">
+    <value>Inte tillgänglig</value>
+  </data>
+  <data name="MenuBlasterDesc" xml:space="preserve">
+    <value>Blaster En hand mortel med bra område för ikraftträdande skada</value>
+  </data>
+  <data name="MenuCannonDesc" xml:space="preserve">
+    <value>Cannon skjuter på en tung kanonkula med omfattande skador som tränger vad som helst</value>
+  </data>
+  <data name="MenuConfirmPurchase" xml:space="preserve">
+    <value>Är du säker på att du vill låsa upp {0} för {1} silvermynt?</value>
+  </data>
+  <data name="MenuConfirmPurchaseTitle" xml:space="preserve">
+    <value>Bekräfta köp</value>
+  </data>
+  <data name="MenuGatlingDesc" xml:space="preserve">
+    <value>GatlingGun Bränder mycket kulor på kort tid, men förbrukar en hel del ammo</value>
+  </data>
+  <data name="MenuGoldCoins" xml:space="preserve">
+    <value>Antal guldmynt du har tjänat Du tjänar mer guldmynt genom att fylla kartor</value>
+  </data>
+  <data name="MenuHammerDesc" xml:space="preserve">
+    <value>Hammer En långsam och tung vapen med kort räckvidd, men omfattande skador</value>
+  </data>
+  <data name="MenuMapCompleted" xml:space="preserve">
+    <value>Du har slutfört den här kartan</value>
+  </data>
+  <data name="MenuMapCompletionYield" xml:space="preserve">
+    <value>Slutföra denna karta tjänar du {0} guldmynt (s)</value>
+  </data>
+  <data name="MenuMapSilverRecord" xml:space="preserve">
+    <value>Silver mynt: {0}</value>
+  </data>
+  <data name="MenuMapUnavailable" xml:space="preserve">
+    <value>Den valda kartan är inte tillgänglig i denna version av spelet</value>
+  </data>
+  <data name="MenuMapUnavailableTitle" xml:space="preserve">
+    <value>Karta inte tillgänglig</value>
+  </data>
+  <data name="MenuNewProfile" xml:space="preserve">
+    <value>Skapa en ny lokal Dead Uppfyller Bly profil.</value>
+  </data>
+  <data name="MenuNewProfileTitle" xml:space="preserve">
+    <value>Ny profil</value>
+  </data>
+  <data name="MenuNoProfileSelected" xml:space="preserve">
+    <value>Du måste välja en profil först</value>
+  </data>
+  <data name="MenuNoProfileSelectedTitle" xml:space="preserve">
+    <value>Ingen profil vald</value>
+  </data>
+  <data name="MenuNotEnoughCoinsTitle" xml:space="preserve">
+    <value>Du har inte råd att</value>
+  </data>
+  <data name="MenuNotEnoughGold" xml:space="preserve">
+    <value>Du har inte tillräckligt med guldmynt (kräver {0} guldmynt (s))</value>
+  </data>
+  <data name="MenuNotEnoughSilver" xml:space="preserve">
+    <value>Du har inte tillräckligt med silvermynt</value>
+  </data>
+  <data name="MenuRemoveProfile" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort följande profil? {0}</value>
+  </data>
+  <data name="MenuRemoveProfileTitle" xml:space="preserve">
+    <value>Bekräfta borttagning profil</value>
+  </data>
+  <data name="MenuShotgunDesc" xml:space="preserve">
+    <value>Shotgun Väldigt bra vapen med god spridning</value>
+  </data>
+  <data name="MenuSilverCoins" xml:space="preserve">
+    <value>Antal silvermynt du har tjänat Du tjänar silvermynt genom att döda zombies</value>
+  </data>
+  <data name="MenuSkipConfirmation" xml:space="preserve">
+    <value>Du har inte slutfört {0} ännu, är du säker på att du vill hoppa över den?</value>
+  </data>
+  <data name="MenuSkipConfirmationTitle" xml:space="preserve">
+    <value>Hoppa över {0}?</value>
+  </data>
+  <data name="MenuSpearDesc" xml:space="preserve">
+    <value>Spear En lång rad närstridsvapen med begränsade skador</value>
+  </data>
+  <data name="MenuSwordDesc" xml:space="preserve">
+    <value>Sword Väldigt bra vapen med mellanklassbilar och skador</value>
+  </data>
+  <data name="MenuUnlockMap" xml:space="preserve">
+    <value>Lås upp '{0}' Pris: {1} guldmynt (s)</value>
+  </data>
+  <data name="MenuWeaponPrice" xml:space="preserve">
+    <value>{0} Pris: {1} silvermynt Klicka för att köpa</value>
+  </data>
+  <data name="MenuWepAlreadyBought" xml:space="preserve">
+    <value>{0} Detta vapen är redan tillgänglig för dig Du kan välja att använda den nästa gång du startar en karta</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ScoreKilledYourself" xml:space="preserve">
+    <value>Du dödade dig själv</value>
+  </data>
+  <data name="ScoreKilledByMalaria" xml:space="preserve">
+    <value>Du dog i malaria</value>
+  </data>
+  <data name="ScoreKilledByAnEnemy" xml:space="preserve">
+    <value>Du dödades av en fiende</value>
+  </data>
+  <data name="GenLogout" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="GenNo" xml:space="preserve">
+    <value>Nr</value>
+  </data>
+  <data name="GenYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="ErrorBadVideoCard" xml:space="preserve">
+    <value>Ditt grafikkort stöds inte. Vill du fortsätta ändå?</value>
+  </data>
+  <data name="GenWarning" xml:space="preserve">
+    <value>Varning</value>
+  </data>
+  <data name="AudioAmbientToolTip" xml:space="preserve">
+    <value>Justerar volymen för ljudeffekter för omgivning.</value>
+  </data>
+  <data name="AudioDriverToolTip" xml:space="preserve">
+    <value>Beslutar vilka ljud drivrutiner att använda.</value>
+  </data>
+  <data name="AudioMasterToolTip" xml:space="preserve">
+    <value>Justerar volymen för alla ljud typer.</value>
+  </data>
+  <data name="AudioMusicToolTip" xml:space="preserve">
+    <value>Justerar volymen på musiken.</value>
+  </data>
+  <data name="AudioSoundEffectsToolTip" xml:space="preserve">
+    <value>Justerar volymen för ljudeffekter.</value>
+  </data>
+  <data name="VideoAnimationToolTip" xml:space="preserve">
+    <value>Ökad animation kvalitet kommer att leda till att fler spel företag som animerade.</value>
+  </data>
+  <data name="VideoAntiAliasingToolTip" xml:space="preserve">
+    <value>Tar bort ojämna kanter.</value>
+  </data>
+  <data name="VideoDisplayModeToolTip" xml:space="preserve">
+    <value>Tips: Större ökar ofta framrates.</value>
+  </data>
+  <data name="VideoLightingToolTip" xml:space="preserve">
+    <value>Ökad belysning kvalitet kommer att lägga mer komplexa belysning till platsen.</value>
+  </data>
+  <data name="VideoOverallToolTip" xml:space="preserve">
+    <value>Högre kvalitet reducerad prestanda men ökar visuella intryck. Ändra Detta påverkar alla videokvalitet inställningar.</value>
+  </data>
+  <data name="VideoResolutionToolTip" xml:space="preserve">
+    <value>Ändrar upplösningen på skärmen (endast availalbe i verkliga fullskärm).</value>
+  </data>
+  <data name="VideoShadowsToolTip" xml:space="preserve">
+    <value>Högre kvalitet resulterar i skarpare skuggor.</value>
+  </data>
+  <data name="VideoTerrainToolTip" xml:space="preserve">
+    <value>Fler terräng och lövverk kommer att läggas till.</value>
+  </data>
+  <data name="VideoTextureFilterToolTip" xml:space="preserve">
+    <value>Ökar visuella intryck av texturer.</value>
+  </data>
+  <data name="VideoVerticalSyncToolTip" xml:space="preserve">
+    <value>Synkroniserar framerate till uppdateringsfrekvensen för din bildskärm.</value>
+  </data>
+  <data name="GenStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="MapGoodLuckCaptain" xml:space="preserve">
+    <value>Lycka till, kapten!</value>
+  </data>
+  <data name="MapSelectedWeapons" xml:space="preserve">
+    <value>Valda vapen</value>
+  </data>
+  <data name="VideoEnumHigh" xml:space="preserve">
+    <value>Hög</value>
+  </data>
+  <data name="VideoEnumHighest" xml:space="preserve">
+    <value>Högsta</value>
+  </data>
+  <data name="VideoEnumLow" xml:space="preserve">
+    <value>Låg</value>
+  </data>
+  <data name="VideoEnumLowest" xml:space="preserve">
+    <value>Lägsta</value>
+  </data>
+  <data name="VideoEnumMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="VideoEnumNoShadows" xml:space="preserve">
+    <value>Inga skuggor</value>
+  </data>
+  <data name="GenNone" xml:space="preserve">
+    <value>Inga</value>
+  </data>
+  <data name="VideoEnumCustom" xml:space="preserve">
+    <value>Anpassad</value>
+  </data>
+  <data name="VideoEnumFullscreen" xml:space="preserve">
+    <value>Fullscreen</value>
+  </data>
+  <data name="VideoEnumFullscreenWindowed" xml:space="preserve">
+    <value>Fullscreen Windowed</value>
+  </data>
+  <data name="VideoEnumUltra" xml:space="preserve">
+    <value>Ultra</value>
+  </data>
+  <data name="VideoEnumWindowed" xml:space="preserve">
+    <value>Windowed</value>
+  </data>
+  <data name="VideoFilteringAnisotropic16x" xml:space="preserve">
+    <value>Anisotropa 4x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic2x" xml:space="preserve">
+    <value>Anisotropa 2x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic4x" xml:space="preserve">
+    <value>Anisotropa 4x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic8x" xml:space="preserve">
+    <value>Anisotropa 8x</value>
+  </data>
+  <data name="VideoFilteringBilinear" xml:space="preserve">
+    <value>Bilinjär</value>
+  </data>
+  <data name="VideoFilteringTrilinear" xml:space="preserve">
+    <value>Trilinear</value>
+  </data>
+  <data name="VideoVSyncOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="VideoVSyncOn" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="VideoEnumAntiAliasing" xml:space="preserve">
+    <value>{0} x</value>
+  </data>
+  <data name="ControlJump" xml:space="preserve">
+    <value>Hoppa</value>
+  </data>
+  <data name="GenLoadingDots" xml:space="preserve">
+    <value>Laddar ...</value>
+  </data>
+  <data name="MenuAchievements" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="MenuArmory" xml:space="preserve">
+    <value>Vapenförråd</value>
+  </data>
+  <data name="HUDRageLevelX" xml:space="preserve">
+    <value>Rage nivå {0}!</value>
+  </data>
+  <data name="HUDStageAmmo" xml:space="preserve">
+    <value>Ammo</value>
+  </data>
+  <data name="HUDStageCompleted" xml:space="preserve">
+    <value>AVSLUTAD</value>
+  </data>
+  <data name="HUDStageHP" xml:space="preserve">
+    <value>HP</value>
+  </data>
+  <data name="HUDStageRage" xml:space="preserve">
+    <value>Rage</value>
+  </data>
+  <data name="HUDStageTime" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="HUDStageX" xml:space="preserve">
+    <value>Steg {0}</value>
+  </data>
+  <data name="HUDWarnNotEnoughAmmo" xml:space="preserve">
+    <value>Inte nog ammo</value>
+  </data>
+  <data name="HUDWarnNotEnoughRage" xml:space="preserve">
+    <value>Inte nog raseri</value>
+  </data>
+  <data name="HUDWarnOnCooldown" xml:space="preserve">
+    <value>Du kan inte göra detta ännu</value>
+  </data>
+  <data name="HUDWarnTooClose" xml:space="preserve">
+    <value>Du är för nära</value>
+  </data>
+  <data name="ScoreKilledByPiranhas" xml:space="preserve">
+    <value>Du var uppätna av pirayor</value>
+  </data>
+  <data name="StatsBoxTitle" xml:space="preserve">
+    <value>Några siffror</value>
+  </data>
+  <data name="StatsCaughtInNet" xml:space="preserve">
+    <value>Fångad i nätet</value>
+  </data>
+  <data name="StatsDamageDealt" xml:space="preserve">
+    <value>Skador som behandlas</value>
+  </data>
+  <data name="StatsDamageTaken" xml:space="preserve">
+    <value>Skador som vidtagits</value>
+  </data>
+  <data name="StatsHitsTaken" xml:space="preserve">
+    <value>vidtas Träffar</value>
+  </data>
+  <data name="StatsTitle" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="StatsUnitsKilled" xml:space="preserve">
+    <value>Totalt enheter dödade</value>
+  </data>
+  <data name="WeaponBlaster" xml:space="preserve">
+    <value>Blaster</value>
+  </data>
+  <data name="WeaponCannon" xml:space="preserve">
+    <value>Cannon</value>
+  </data>
+  <data name="WeaponGatling" xml:space="preserve">
+    <value>Gatling Gun</value>
+  </data>
+  <data name="WeaponHammer" xml:space="preserve">
+    <value>Hammare</value>
+  </data>
+  <data name="WeaponRifle" xml:space="preserve">
+    <value>Rifle</value>
+  </data>
+  <data name="WeaponSpear" xml:space="preserve">
+    <value>Spear</value>
+  </data>
+  <data name="WeaponSword" xml:space="preserve">
+    <value>Sword</value>
+  </data>
+  <data name="AchiFeedTheFishes" xml:space="preserve">
+    <value>Mata fiskarna</value>
+  </data>
+  <data name="AchiFindTinyTom" xml:space="preserve">
+    <value>Hitta Tiny Tom.</value>
+  </data>
+  <data name="AchiMakePiranasKill10Zombies" xml:space="preserve">
+    <value>Gör piranas döda 10 zombies under en enda försök.</value>
+  </data>
+  <data name="AchiTinyTom" xml:space="preserve">
+    <value>Tiny Tom</value>
+  </data>
+  <data name="MenuUnableToLoadProfile" xml:space="preserve">
+    <value>Kunde inte ladda profil</value>
+  </data>
+  <data name="MenuUnableToLoadProfileDetails" xml:space="preserve">
+    <value>Profilen filen har skadats</value>
+  </data>
+  <data name="AchiFindTomsDog" xml:space="preserve">
+    <value>Hitta Tiny Tom's hund</value>
+  </data>
+  <data name="AchiTomsDog" xml:space="preserve">
+    <value>Hitta Tiny Tom's hund</value>
+  </data>
+  <data name="AchiCloseAllDoorsOnLevelC" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiCompleteArenaWithoutHit" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiHonorThePiranas" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiLimitingYourChoises" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiMakeAllBullsDieFromPiranas" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiNotAScrath" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiAvoidGettingCaughtInAnyNetOnLevelQ" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiSlipperyNipple" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiCompleteAdvancedTutorialWithoutKillingAnyGrunts" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AchiRottensForDinner" xml:space="preserve">
+    <value>-</value>
+  </data>
+</root>

@@ -1,0 +1,16 @@
+{
+  "ChallengeMapMode": false,
+  "AchievementsEnabled": true,
+  "SilverEnabled": true,
+  "SendProgramCrashFeedback": true,
+  "SendStatisticsFeedback": true,
+  "CheckForUpdate": true,
+  "DisplayMapRatingDialog": 1,
+  "ProfileType": 300,
+  "DisplayFeedbackOnlineControl": false,
+  "VersionFile": "latestdml.txt",
+  "DownloadKey": "dml",
+  "DownloadHost": "http://download2.deadmeetslead.com/",
+  "ApplicationDataFolder": "DeadMeetsLead",
+  "ActiveLanguage": 2,
+}

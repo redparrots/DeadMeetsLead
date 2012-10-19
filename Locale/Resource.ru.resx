@@ -1,0 +1,1244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AchiAllIn" xml:space="preserve">
+    <value>Все включено</value>
+  </data>
+  <data name="AchiAmmoConservative" xml:space="preserve">
+    <value>Оружейный консерватор</value>
+  </data>
+  <data name="AchiBarbecue" xml:space="preserve">
+    <value>Шашлык</value>
+  </data>
+  <data name="AchiBloodboil" xml:space="preserve">
+    <value>Кипящая кровь</value>
+  </data>
+  <data name="AchiBloodSweatAndTears" xml:space="preserve">
+    <value>Кровь, пот и слезы</value>
+  </data>
+  <data name="AchiBoom" xml:space="preserve">
+    <value>БАМ</value>
+  </data>
+  <data name="AchiBoxcutter" xml:space="preserve">
+    <value>Канцелярский нож</value>
+  </data>
+  <data name="AchiBraindead" xml:space="preserve">
+    <value>Тупица</value>
+  </data>
+  <data name="AchiBurningHisMinions" xml:space="preserve">
+    <value>Поджигатель приспешников</value>
+  </data>
+  <data name="AchiCallForthTheDemon" xml:space="preserve">
+    <value>Вызов демона</value>
+  </data>
+  <data name="AchiChampionOfTheDead" xml:space="preserve">
+    <value>Чемпион среди мертвецов</value>
+  </data>
+  <data name="AchiCleanseTheLands" xml:space="preserve">
+    <value>Зачистка земель</value>
+  </data>
+  <data name="AchiCompleteAllLevels" xml:space="preserve">
+    <value>Пройдите все уровни.</value>
+  </data>
+  <data name="AchiCompleteAmbushWithoutHitting" xml:space="preserve">
+    <value>Пройдите уровень "Засада", не попав ни по одному зомби.</value>
+  </data>
+  <data name="AchiCompleteCommandersWithoutHit" xml:space="preserve">
+    <value>Пройдите уровень "Командиры" без единого удара со стороны противников.</value>
+  </data>
+  <data name="AchiCompleteFireAwayWithoutUsing" xml:space="preserve">
+    <value>Пройдите уровень "Пали!", не используя оружие дальнего боя.</value>
+  </data>
+  <data name="AchiCompleteGauntletInLessThanXSeconds" xml:space="preserve">
+    <value>Пройдите уровень "Сквозь строй" менее чем за {0} секунд.</value>
+  </data>
+  <data name="AchiCompleteGodSpeedLessThanXSeconds" xml:space="preserve">
+    <value>Пройдите уровень "Божественная скорость" менее чем за {0} секунд.</value>
+  </data>
+  <data name="AchiCompleteReverseGauntletWithoutChests" xml:space="preserve">
+    <value>Пройдите уровень "Сквозь строй в другую сторону", не уничтожив ни одного обычного сундука.</value>
+  </data>
+  <data name="AchiCompleteTheGame" xml:space="preserve">
+    <value>Пройдите игру.</value>
+  </data>
+  <data name="AchiDeadMeetsLead" xml:space="preserve">
+    <value>Dead Meets Lead</value>
+  </data>
+  <data name="AchiDestroyAllBoxesOnTheCliff" xml:space="preserve">
+    <value>Уничтожьте все ящики на уровне "Скала" в течение 2 минут.</value>
+  </data>
+  <data name="AchiGainRageLevel4OnLevelA" xml:space="preserve">
+    <value>Достигните четвертого уровня ярости на уровне "На мели".</value>
+  </data>
+  <data name="AchiGauntletChallengeX" xml:space="preserve">
+    <value>Сквозь строй {0}</value>
+  </data>
+  <data name="AchiGettingRidOfTheirBoss" xml:space="preserve">
+    <value>Избавление от босса</value>
+  </data>
+  <data name="AchiGodSpeedChallengeX" xml:space="preserve">
+    <value>Божественная скорость {0}</value>
+  </data>
+  <data name="AchiGoingCrazyAndLovingIt" xml:space="preserve">
+    <value>Схожу с ума, и мне это нравится!</value>
+  </data>
+  <data name="AchiHurtButNotDead" xml:space="preserve">
+    <value>Раненый, но живой</value>
+  </data>
+  <data name="AchiIAmCalmTrustMe" xml:space="preserve">
+    <value>Я спокойный, поверьте мне</value>
+  </data>
+  <data name="AchiIGotLeadInMyVeins" xml:space="preserve">
+    <value>У меня в венах свинец</value>
+  </data>
+  <data name="AchiIntentionToWin" xml:space="preserve">
+    <value>Стремление к победе</value>
+  </data>
+  <data name="AchiInTheirFace" xml:space="preserve">
+    <value>Им в лицо</value>
+  </data>
+  <data name="AchiIStillHaveMyWeapons" xml:space="preserve">
+    <value>У меня все еще есть оружие</value>
+  </data>
+  <data name="AchiKillTheDemonLord" xml:space="preserve">
+    <value>Убейте верховного демона.</value>
+  </data>
+  <data name="AchiKillTheWolfBoss" xml:space="preserve">
+    <value>Убейте Волка.</value>
+  </data>
+  <data name="AchiKillTheZombieBoss" xml:space="preserve">
+    <value>Убейте предводителя зомби.</value>
+  </data>
+  <data name="AchiKillXZombiesInLessThanYSeconds" xml:space="preserve">
+    <value>Убейте {0} зомби менее чем за {1} сек.</value>
+  </data>
+  <data name="AchiLandAHitForOverXDamage" xml:space="preserve">
+    <value>Нанесите не менее {0} ед. урона одним ударом.</value>
+  </data>
+  <data name="AchiLetTheBullHandleIt" xml:space="preserve">
+    <value>Пусть бык все уладит</value>
+  </data>
+  <data name="AchiMake10ConsecutiveTries" xml:space="preserve">
+    <value>Вы должны предпринять 10 последовательных попыток на одной карте.</value>
+  </data>
+  <data name="AchiMake20ConsecutiveTries" xml:space="preserve">
+    <value>Вы должны предпринять 20 последовательных попыток на одной карте.</value>
+  </data>
+  <data name="AchiMake50ConsecutiveTries" xml:space="preserve">
+    <value>Вы должны предпринять 50 последовательных попыток на одной карте.</value>
+  </data>
+  <data name="AchiMake5ConsecutiveTries" xml:space="preserve">
+    <value>Вы должны предпринять 5 последовательных попыток на одной карте.</value>
+  </data>
+  <data name="AchiMakeABullChargeZombie" xml:space="preserve">
+    <value>Заставьте быка забодать зомби до смерти.</value>
+  </data>
+  <data name="AchiMakeAClericKillAZombie" xml:space="preserve">
+    <value>Заставьте клирика-жреца убить зомби.</value>
+  </data>
+  <data name="AchiMedicalAttention" xml:space="preserve">
+    <value>Медицинский уход?</value>
+  </data>
+  <data name="AchiMentalMeltdown" xml:space="preserve">
+    <value>Ментальный взрыв</value>
+  </data>
+  <data name="AchiNeedToSharpenMyWeapons" xml:space="preserve">
+    <value>Мне нужно наточить оружие</value>
+  </data>
+  <data name="AchiNeverGonnaLetThemGo" xml:space="preserve">
+    <value>Никогда не дам им уйти</value>
+  </data>
+  <data name="AchiNoPatience" xml:space="preserve">
+    <value>Не хватает терпения</value>
+  </data>
+  <data name="AchiOutOfTheBox" xml:space="preserve">
+    <value>Из ящика</value>
+  </data>
+  <data name="AchiPacifist" xml:space="preserve">
+    <value>Пацифист</value>
+  </data>
+  <data name="AchiReachRageLevelXAnyLevel" xml:space="preserve">
+    <value>Достигните {0}-го уровня ярости на любом уровне.</value>
+  </data>
+  <data name="AchiSlay10000Zombies" xml:space="preserve">
+    <value>Убейте 10000 зомби.</value>
+  </data>
+  <data name="AchiSlay1000Zombies" xml:space="preserve">
+    <value>Убейте 1000 зомби.</value>
+  </data>
+  <data name="AchiSlay50000Zombies" xml:space="preserve">
+    <value>Убейте 50000 зомби.</value>
+  </data>
+  <data name="AchiSlay5000Zombies" xml:space="preserve">
+    <value>Убейте 5000 зомби.</value>
+  </data>
+  <data name="AchiSneaky" xml:space="preserve">
+    <value>Хитрец</value>
+  </data>
+  <data name="AchiTakeXDamageDuringASingleTry" xml:space="preserve">
+    <value>Примите {0} ед. урона за одну попытку.</value>
+  </data>
+  <data name="AchiTheDemonLordsPet" xml:space="preserve">
+    <value>Зверушка верховного демона</value>
+  </data>
+  <data name="AchiZombieMassacre" xml:space="preserve">
+    <value>Зомби-бойня</value>
+  </data>
+  <data name="AchiCompleteGauntletInLessThan1Minute" xml:space="preserve">
+    <value>Пройдите уровень "Сквоз строй" менее чем за минуту.</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Звук</value>
+  </data>
+  <data name="ControlMelee" xml:space="preserve">
+    <value>Оружие ближнего боя</value>
+  </data>
+  <data name="ControlMoveBackward" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="ControlMoveForward" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="ControlRanged" xml:space="preserve">
+    <value>Оружие дальнего боя</value>
+  </data>
+  <data name="Controls" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="ControlSettingsTitle" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="ControlStrafeLeft" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="ControlStrafeRight" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="DeadMeetsLead" xml:space="preserve">
+    <value>Dead Meets Lead</value>
+  </data>
+  <data name="ErrorFailInitSoundDevice" xml:space="preserve">
+    <value>Не удалось обнаружить звуковую карту. Игра будет запущена, но звуки воспроизводиться не будут.</value>
+  </data>
+  <data name="ErrorFailInitSoundDeviceTitle" xml:space="preserve">
+    <value>Не удалось обнаружить звуковую карту</value>
+  </data>
+  <data name="ErrorFailSetAudioDevice" xml:space="preserve">
+    <value>Не удается настроить звуковую карту. Пожалуйста, убедитесь в том, что она установлена и функционирует. В противном случае игра будет работать без звука.
+
+Ошибка:
+{0}</value>
+  </data>
+  <data name="ErrorFailSetAudioDeviceTitle" xml:space="preserve">
+    <value>Не удается настроить звуковую карту</value>
+  </data>
+  <data name="ErrorLowShaderModel" xml:space="preserve">
+    <value>Ваша видеокарта не поддерживает шейдеры третьей или более поздней модели. Программа закрывается.</value>
+  </data>
+  <data name="ErrorUnhandledException" xml:space="preserve">
+    <value>Произошла неожиданная ошибка. Клиентская программа закрывается...</value>
+  </data>
+  <data name="ErrorWrongFrameworkVersion" xml:space="preserve">
+    <value>По всей видимости, у вас не установлена необходимая версия платформы .NET Framework. Игра не сможет работать правильно или работать вообще.
+
+{0}
+
+Вы все равно хотите продолжить?</value>
+  </data>
+  <data name="ErrorWrongFrameworkVersionTitle" xml:space="preserve">
+    <value>Отсутствует .NET Framework</value>
+  </data>
+  <data name="GenAchievementCaps" xml:space="preserve">
+    <value>ДОСТИЖЕНИЕ</value>
+  </data>
+  <data name="GenApply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="GenCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="GenClose" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="GenContinue" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="GenLoading" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="GenMainMenu" xml:space="preserve">
+    <value>Главное меню</value>
+  </data>
+  <data name="GenMap" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="GenMeleeWeapon" xml:space="preserve">
+    <value>Оружие ближнего боя</value>
+  </data>
+  <data name="GenMenu" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="GenNext" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="GenOffline" xml:space="preserve">
+    <value>Оффлайн</value>
+  </data>
+  <data name="GenOk" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="GenOnline" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="GenPage" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="GenPlayAgain" xml:space="preserve">
+    <value>Играть снова</value>
+  </data>
+  <data name="GenPrev" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="GenQuit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="GenRangedWeapon" xml:space="preserve">
+    <value>Оружие дальнего боя</value>
+  </data>
+  <data name="GenRequires" xml:space="preserve">
+    <value>Требования</value>
+  </data>
+  <data name="GenRestart" xml:space="preserve">
+    <value>Сначала</value>
+  </data>
+  <data name="GenResume" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="GenTime" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="HelpGhostBullet" xml:space="preserve">
+    <value>Попробуйте выполнить призрачный выстрел. Нажмите на ({0}).</value>
+  </data>
+  <data name="HelpHit" xml:space="preserve">
+    <value>Попробуйте ударить зомби. Подойдите к одному из них и нажмите на ({0}).</value>
+  </data>
+  <data name="HelpJump" xml:space="preserve">
+    <value>Чтобы подпрыгнуть, нажмите на ({0}).</value>
+  </data>
+  <data name="HelpMapScroll" xml:space="preserve">
+    <value>Для перемещения по карте щелкните по ней и переместите мышь.</value>
+  </data>
+  <data name="HelpPurchaseWeapon" xml:space="preserve">
+    <value>Приобретать оружие вы можете за серебряные монеты в арсенале.</value>
+  </data>
+  <data name="HelpRifle" xml:space="preserve">
+    <value>Попробуйте выстрелить из ружья. Нажмите ({0}), чтобы взять его в руки, и  ({1}), чтобы выстрелить.</value>
+  </data>
+  <data name="HelpSlam" xml:space="preserve">
+    <value>Попробуйте провести сильный удар. Нажмите на кнопку ({0}).</value>
+  </data>
+  <data name="HelpTipDontAlwaysNeedToKill" xml:space="preserve">
+    <value>Подсказка: вам не всегда нужно уничтожать всех зомби.</value>
+  </data>
+  <data name="HelpTipKeepPushingForward" xml:space="preserve">
+    <value>Подсказка: Продолжайте двигаться вперед!</value>
+  </data>
+  <data name="HelpTipRageMakesYourPowerful" xml:space="preserve">
+    <value>Подсказка: достижение высокого уровня ярости может сделать вас заметно сильнее.</value>
+  </data>
+  <data name="HelpTipSureAboutTheWay" xml:space="preserve">
+    <value>Подсказка: вы уверены, что идете по верному пути?</value>
+  </data>
+  <data name="HelpTipTrickTheBull" xml:space="preserve">
+    <value>Подсказка: вы никак не сможете обмануть быка?</value>
+  </data>
+  <data name="HelpTryOtherWeapons" xml:space="preserve">
+    <value>Вы пытались использовать другие комбинации оружия?</value>
+  </data>
+  <data name="HelpWASD" xml:space="preserve">
+    <value>Попробуйте походить вокруг
+Вперед: ({0})
+Назад: ({1})
+Влево: ({2})
+Вправо: ({3})</value>
+  </data>
+  <data name="HUDAmmunition" xml:space="preserve">
+    <value>Боеприпасы</value>
+  </data>
+  <data name="HUDGhostBullet" xml:space="preserve">
+    <value>Призрачный выстрел {0}
+Дальнобойная особая атака; выстрел 
+туда, где находится указатель мыши.
+Есть минимальная дальность использования.</value>
+  </data>
+  <data name="HUDHitPoints" xml:space="preserve">
+    <value>Здоровье
+{0} / {1}
+Восстанавливается медленно</value>
+  </data>
+  <data name="HUDMelee" xml:space="preserve">
+    <value>Атака в ближнем бою {0}</value>
+  </data>
+  <data name="HUDRage" xml:space="preserve">
+    <value>Ярость
+Убивайте противников для 
+повышения уровня ярости.</value>
+  </data>
+  <data name="HUDRageLevel" xml:space="preserve">
+    <value>Уровень ярости
+Чем выше уровень ярости, тем вы сильнее</value>
+  </data>
+  <data name="HUDRanged" xml:space="preserve">
+    <value>Атака в дальнем бою {0}</value>
+  </data>
+  <data name="HUDSlam" xml:space="preserve">
+    <value>Сильный удар {0}
+Очень мощный удар ближнего боя,
+который оглушает окружающих противников. 
+При использовании тратится ярость.
+</value>
+  </data>
+  <data name="HUDSwitchMelee" xml:space="preserve">
+    <value>Переключение на оружие ближнего боя {0}</value>
+  </data>
+  <data name="HUDSwitchRange" xml:space="preserve">
+    <value>Переключение на оружие дальнего боя {0}</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ScoreActions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="ScoreCaughtInNet" xml:space="preserve">
+    <value>Пойман в сеть</value>
+  </data>
+  <data name="ScoreCharacterActions" xml:space="preserve">
+    <value>Действия персонажа</value>
+  </data>
+  <data name="ScoreCompletedMapInXTries" xml:space="preserve">
+    <value>Вы прошли эту карту. Кол-во попыток - {0}.</value>
+  </data>
+  <data name="ScoreDamageDealt" xml:space="preserve">
+    <value>Нанесенный урон</value>
+  </data>
+  <data name="ScoreDamageTaken" xml:space="preserve">
+    <value>Принятый урон</value>
+  </data>
+  <data name="ScoreDefeat" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="ScoreFighter" xml:space="preserve">
+    <value>БОЕЦ</value>
+  </data>
+  <data name="ScoreFighterText" xml:space="preserve">
+    <value>Выход для трусов!</value>
+  </data>
+  <data name="ScoreFrenzy" xml:space="preserve">
+    <value>БЕШЕНСТВО</value>
+  </data>
+  <data name="ScoreFrenzyText" xml:space="preserve">
+    <value>Я впал в убойный раж!</value>
+  </data>
+  <data name="ScoreGhostRifleAccuracy" xml:space="preserve">
+    <value>Точность призрачной стрельбы</value>
+  </data>
+  <data name="ScoreGhostRifleShots" xml:space="preserve">
+    <value>Призрачных выстрелов</value>
+  </data>
+  <data name="ScoreHero" xml:space="preserve">
+    <value>ГЕРОЙ</value>
+  </data>
+  <data name="ScoreHeroText" xml:space="preserve">
+    <value>ГРРРР!!!</value>
+  </data>
+  <data name="ScoreHitsTaken" xml:space="preserve">
+    <value>Ударов принято</value>
+  </data>
+  <data name="ScoreKilledUnits" xml:space="preserve">
+    <value>Убито противников</value>
+  </data>
+  <data name="ScoreRewardsAndResults" xml:space="preserve">
+    <value>Достижения и награды</value>
+  </data>
+  <data name="ScoreShotgunAccuracy" xml:space="preserve">
+    <value>Точность стрельбы из дробовика</value>
+  </data>
+  <data name="ScoreShotgunShots" xml:space="preserve">
+    <value>Выстрелов из дробовика</value>
+  </data>
+  <data name="ScoreStage" xml:space="preserve">
+    <value>УРОВЕНЬ</value>
+  </data>
+  <data name="ScoreStageText" xml:space="preserve">
+    <value>Уровень {0} завершен</value>
+  </data>
+  <data name="ScoreStageTextTooltip" xml:space="preserve">
+    <value>Вы впервые прошли уровень {0}</value>
+  </data>
+  <data name="ScoreStats" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="ScoreSurvivor" xml:space="preserve">
+    <value>УЦЕЛЕВШИЙ</value>
+  </data>
+  <data name="ScoreSurvivorText" xml:space="preserve">
+    <value>Да победит сильнейший!</value>
+  </data>
+  <data name="ScoreTotalKilled" xml:space="preserve">
+    <value>Всего убито</value>
+  </data>
+  <data name="ScoreVictory" xml:space="preserve">
+    <value>Победа</value>
+  </data>
+  <data name="ScoreYouEarnedGoldCoins" xml:space="preserve">
+    <value>Заработано золотых монет: {0}</value>
+  </data>
+  <data name="ScoreYouEarnedGoldCoinsTooltip" xml:space="preserve">
+    <value>Вы получили эти золотые монеты за прохождение
+новой карты.</value>
+  </data>
+  <data name="ScoreYouIncreasedSilverCoins" xml:space="preserve">
+    <value>Вы увеличили сбор серебра с этой карты; получено серебряных монет: {0}</value>
+  </data>
+  <data name="ScoreYouIncreasedSilverCoinsTooltip" xml:space="preserve">
+    <value>Серебро, получаемое за карту ранее: {0}.
+Теперь вы увеличили эту сумму до {1}.
+</value>
+  </data>
+  <data name="SettingsNeedRestart" xml:space="preserve">
+    <value>Чтобы изменения вступили в силу, вы должны перезагрузить игру. </value>
+  </data>
+  <data name="SettingsNeedRestartTitle" xml:space="preserve">
+    <value>Необходимо перезапустить программу</value>
+  </data>
+  <data name="SoundAmbientVolume" xml:space="preserve">
+    <value>Громкость окружающих звуков</value>
+  </data>
+  <data name="SoundAudioDriver" xml:space="preserve">
+    <value>Аудиодрайвер</value>
+  </data>
+  <data name="SoundEffectsVolume" xml:space="preserve">
+    <value>Громкость звука</value>
+  </data>
+  <data name="SoundMasterVolume" xml:space="preserve">
+    <value>Общая громкость</value>
+  </data>
+  <data name="SoundMusicVolume" xml:space="preserve">
+    <value>Громкость музыки</value>
+  </data>
+  <data name="SoundSettingsTitle" xml:space="preserve">
+    <value>Настройки звука</value>
+  </data>
+  <data name="Tier1Name" xml:space="preserve">
+    <value>Южное побережье</value>
+  </data>
+  <data name="Tier2Name" xml:space="preserve">
+    <value>Болота</value>
+  </data>
+  <data name="Tier3Name" xml:space="preserve">
+    <value>Сумрачный приют</value>
+  </data>
+  <data name="Tier4Name" xml:space="preserve">
+    <value>Болото Смерти</value>
+  </data>
+  <data name="Tier5Name" xml:space="preserve">
+    <value>Западное нагорье</value>
+  </data>
+  <data name="Tier6Name" xml:space="preserve">
+    <value>Королевское плато</value>
+  </data>
+  <data name="Tier7Name" xml:space="preserve">
+    <value>Тайная Долина</value>
+  </data>
+  <data name="Tier9Name" xml:space="preserve">
+    <value>Гора Сглаза</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="VideoAnimation" xml:space="preserve">
+    <value>Анимация</value>
+  </data>
+  <data name="VideoAntiAliasing" xml:space="preserve">
+    <value>Сглаживание</value>
+  </data>
+  <data name="VideoLightingQuality" xml:space="preserve">
+    <value>Качество освещения</value>
+  </data>
+  <data name="VideoOverallVideo" xml:space="preserve">
+    <value>Общие параметры</value>
+  </data>
+  <data name="VideoResolution" xml:space="preserve">
+    <value>Разрешение</value>
+  </data>
+  <data name="VideoSettingsTitle" xml:space="preserve">
+    <value>Настройки графики</value>
+  </data>
+  <data name="VideoShadowQuality" xml:space="preserve">
+    <value>Качество теней</value>
+  </data>
+  <data name="VideoTerrainQuality" xml:space="preserve">
+    <value>Отображение местности</value>
+  </data>
+  <data name="VideoTextureFiltering" xml:space="preserve">
+    <value>Фильтрация текстур</value>
+  </data>
+  <data name="VideoVerticalSync" xml:space="preserve">
+    <value>Верт. синх.</value>
+  </data>
+  <data name="VideoWindowMode" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="ErrorOutOfVideoMemory" xml:space="preserve">
+    <value>У вас недостаточно видеопамяти. Попробуйте понизить качество теней и повторить попытку. Игра завершает работу.</value>
+  </data>
+  <data name="GenLCBullets" xml:space="preserve">
+    <value>пули</value>
+  </data>
+  <data name="GenLCHP" xml:space="preserve">
+    <value>ХП</value>
+  </data>
+  <data name="GenLCMinuteShort" xml:space="preserve">
+    <value>мин.</value>
+  </data>
+  <data name="GenLCSecondsShort" xml:space="preserve">
+    <value>сек.</value>
+  </data>
+  <data name="GenLCTimeLeft" xml:space="preserve">
+    <value>осталось</value>
+  </data>
+  <data name="GenLCRage" xml:space="preserve">
+    <value>ярость</value>
+  </data>
+  <data name="HUDMalariaWarning" xml:space="preserve">
+    <value>Вы зашли слишком далеко в джунгли и подхватили какую-то тропическую болезнь. Возвращайтесь на тропу, пока она вас не убила!</value>
+  </data>
+  <data name="HUDMalariaWarningTitle" xml:space="preserve">
+    <value>Малярия!</value>
+  </data>
+  <data name="HUDYouRanOutOfTime" xml:space="preserve">
+    <value>У вас вышло время</value>
+  </data>
+  <data name="PressEscToSkip" xml:space="preserve">
+    <value>Нажмите ESC, чтобы пропустить</value>
+  </data>
+  <data name="GenLogin" xml:space="preserve">
+    <value>Подключение</value>
+  </data>
+  <data name="GenName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="GenNew" xml:space="preserve">
+    <value>Новая игра</value>
+  </data>
+  <data name="GenObjectives" xml:space="preserve">
+    <value>Задачи</value>
+  </data>
+  <data name="GenOptions" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="GenProfile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="GenRemove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="GenUnavailable" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="MenuBlasterDesc" xml:space="preserve">
+    <value>Ручной миномет с высокой эффективностью, который наносит урон по области.</value>
+  </data>
+  <data name="MenuCannonDesc" xml:space="preserve">
+    <value>Позволяет сделать выстрел тяжелым пушечным ядром, который наносит большой урон и пробивает любое препятствие.</value>
+  </data>
+  <data name="MenuConfirmPurchase" xml:space="preserve">
+    <value>Вы уверены, что хотите разблокировать {0} (затраты серебра: {1})?</value>
+  </data>
+  <data name="MenuConfirmPurchaseTitle" xml:space="preserve">
+    <value>Подтвердить покупку</value>
+  </data>
+  <data name="MenuGatlingDesc" xml:space="preserve">
+    <value>Позволяет сделать много выстрелов зa короткий отрезок времени, но потребляет много патронов.</value>
+  </data>
+  <data name="MenuGoldCoins" xml:space="preserve">
+    <value>Количество заработанных золотых монет.
+
+Чем больше карт вы проходите, тем больше монет зарабатываете.</value>
+  </data>
+  <data name="MenuHammerDesc" xml:space="preserve">
+    <value>Тяжелое и громоздкое оружие, которое используется только вблизи, но наносит высокий урон.</value>
+  </data>
+  <data name="MenuMapCompleted" xml:space="preserve">
+    <value>Вы прошли эту карту.</value>
+  </data>
+  <data name="MenuMapCompletionYield" xml:space="preserve">
+    <value>Прохождение этой карты позволит вам заработать немного золота ({0}).</value>
+  </data>
+  <data name="MenuMapSilverRecord" xml:space="preserve">
+    <value>
+Рекордное количество серебряных монет: {0}</value>
+  </data>
+  <data name="MenuMapUnavailable" xml:space="preserve">
+    <value>В данной версии игры выбранная карта недоступна.</value>
+  </data>
+  <data name="MenuMapUnavailableTitle" xml:space="preserve">
+    <value>Карта недоступна</value>
+  </data>
+  <data name="MenuNewProfile" xml:space="preserve">
+    <value>Создайте новый локальный профиль для игры Dead Meets Lead.</value>
+  </data>
+  <data name="MenuNewProfileTitle" xml:space="preserve">
+    <value>Новый профиль</value>
+  </data>
+  <data name="MenuNoProfileSelected" xml:space="preserve">
+    <value>Сначала вам нужно выбрать профиль</value>
+  </data>
+  <data name="MenuNoProfileSelectedTitle" xml:space="preserve">
+    <value>Профиль не выбран</value>
+  </data>
+  <data name="MenuNotEnoughCoinsTitle" xml:space="preserve">
+    <value>Вы не можете этого себе позволить</value>
+  </data>
+  <data name="MenuNotEnoughGold" xml:space="preserve">
+    <value>У вас недостаточно золота (нужно монет: {0})</value>
+  </data>
+  <data name="MenuNotEnoughSilver" xml:space="preserve">
+    <value>У вас недостаточно серебра.</value>
+  </data>
+  <data name="MenuRemoveProfile" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить следующий профиль?
+
+{0}</value>
+  </data>
+  <data name="MenuRemoveProfileTitle" xml:space="preserve">
+    <value>Подтвердите удаление профиля</value>
+  </data>
+  <data name="MenuShotgunDesc" xml:space="preserve">
+    <value>Отличное многоцелевое оружие с большой зоной поражения.</value>
+  </data>
+  <data name="MenuSilverCoins" xml:space="preserve">
+    <value>Количество заработанных серебряных монет.
+
+Вы можете зарабатывать серебряные монеты, убивая зомби.</value>
+  </data>
+  <data name="MenuSkipConfirmation" xml:space="preserve">
+    <value>Вы еще не прошли карту {0}. Вы уверены, что хотите пропустить ее?</value>
+  </data>
+  <data name="MenuSkipConfirmationTitle" xml:space="preserve">
+    <value>Пропустить {0}?</value>
+  </data>
+  <data name="MenuSpearDesc" xml:space="preserve">
+    <value>Длинное оружие ближнего боя с ограниченным уроном.</value>
+  </data>
+  <data name="MenuSwordDesc" xml:space="preserve">
+    <value>Отличное многоцелевое оружие средней длины и со средним уроном.</value>
+  </data>
+  <data name="MenuUnlockMap" xml:space="preserve">
+    <value>Разблокировать '{0}'
+
+Цена (золотых монет): {1}</value>
+  </data>
+  <data name="MenuWeaponPrice" xml:space="preserve">
+    <value>{0}
+
+Цена (серебряных монет): {1}
+
+Щелкните для покупки</value>
+  </data>
+  <data name="MenuWepAlreadyBought" xml:space="preserve">
+    <value>{0}
+
+Это оружие уже вам доступно. вы можете выбрать его в следующий раз, когда начнете карту.</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="ScoreKilledYourself" xml:space="preserve">
+    <value>Вы убили себя.</value>
+  </data>
+  <data name="ScoreKilledByMalaria" xml:space="preserve">
+    <value>Вы умерли от малярии.</value>
+  </data>
+  <data name="ScoreKilledByAnEnemy" xml:space="preserve">
+    <value>Вас убил враг.</value>
+  </data>
+  <data name="GenLogout" xml:space="preserve">
+    <value>Выйти из системы</value>
+  </data>
+  <data name="GenNo" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="GenYes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="ErrorBadVideoCard" xml:space="preserve">
+    <value>Ваша видеокарта не поддерживается. Вы все равно хотите продолжить?</value>
+  </data>
+  <data name="GenWarning" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="AudioAmbientToolTip" xml:space="preserve">
+    <value>Позволяет изменить уровень звука окружающей среды.</value>
+  </data>
+  <data name="AudioDriverToolTip" xml:space="preserve">
+    <value>Определяет драйверы аудиокарты.</value>
+  </data>
+  <data name="AudioMasterToolTip" xml:space="preserve">
+    <value>Позволяет изменить громкость звуков всех типов.</value>
+  </data>
+  <data name="AudioMusicToolTip" xml:space="preserve">
+    <value>Позволяет изменить громкость музыки.</value>
+  </data>
+  <data name="AudioSoundEffectsToolTip" xml:space="preserve">
+    <value>Позволяет изменить громкость звуковых эффектов.</value>
+  </data>
+  <data name="VideoAnimationToolTip" xml:space="preserve">
+    <value>Повышение качества анимации позволяет увеличить количество анимированных игровых объектов. </value>
+  </data>
+  <data name="VideoAntiAliasingToolTip" xml:space="preserve">
+    <value>Сглаживает углы при отображении различных объектов.</value>
+  </data>
+  <data name="VideoDisplayModeToolTip" xml:space="preserve">
+    <value>Подсказка: Переход в полноэкранный режим часто увеличивает частоту обновления изображения.</value>
+  </data>
+  <data name="VideoLightingToolTip" xml:space="preserve">
+    <value>Повышение качества освещения усложняет освещение и добавляет новые его источники.</value>
+  </data>
+  <data name="VideoOverallToolTip" xml:space="preserve">
+    <value>Увеличение качества повышает привлекательность картинки, но может отрицательно сказаться на производительности игры. Изменение этого параметра оказывает влияние на все прочие графические настройки.</value>
+  </data>
+  <data name="VideoResolutionToolTip" xml:space="preserve">
+    <value>Меняет разрешение экрана (доступно только в полноэкранном режиме).</value>
+  </data>
+  <data name="VideoShadowsToolTip" xml:space="preserve">
+    <value>Повышение качества позволяет увеличить четкость изображения теней.</value>
+  </data>
+  <data name="VideoTerrainToolTip" xml:space="preserve">
+    <value>Добавление новых объектов и улучшенная отрисовка листвы.</value>
+  </data>
+  <data name="VideoTextureFilterToolTip" xml:space="preserve">
+    <value>Повышает привлекательность текстур.</value>
+  </data>
+  <data name="VideoVerticalSyncToolTip" xml:space="preserve">
+    <value>Синхронизирует частоту смены кадра изображения с частотой смены кадра вашего монитора.</value>
+  </data>
+  <data name="GenStart" xml:space="preserve">
+    <value>Начать</value>
+  </data>
+  <data name="MapGoodLuckCaptain" xml:space="preserve">
+    <value>Удачи, капитан!</value>
+  </data>
+  <data name="MapSelectedWeapons" xml:space="preserve">
+    <value>Выбранное оружие</value>
+  </data>
+  <data name="VideoEnumHigh" xml:space="preserve">
+    <value>высокое</value>
+  </data>
+  <data name="VideoEnumHighest" xml:space="preserve">
+    <value>максимальное</value>
+  </data>
+  <data name="VideoEnumLow" xml:space="preserve">
+    <value>низкое</value>
+  </data>
+  <data name="VideoEnumLowest" xml:space="preserve">
+    <value>минимальное</value>
+  </data>
+  <data name="VideoEnumMedium" xml:space="preserve">
+    <value>среднее</value>
+  </data>
+  <data name="VideoEnumNoShadows" xml:space="preserve">
+    <value>нет теней</value>
+  </data>
+  <data name="GenNone" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="VideoEnumCustom" xml:space="preserve">
+    <value>изменить</value>
+  </data>
+  <data name="VideoEnumFullscreen" xml:space="preserve">
+    <value>полный экран</value>
+  </data>
+  <data name="VideoEnumFullscreenWindowed" xml:space="preserve">
+    <value>полный экран в окне</value>
+  </data>
+  <data name="VideoEnumUltra" xml:space="preserve">
+    <value>ультра</value>
+  </data>
+  <data name="VideoEnumWindowed" xml:space="preserve">
+    <value>в окне</value>
+  </data>
+  <data name="VideoFilteringAnisotropic16x" xml:space="preserve">
+    <value>Анизотропия 16x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic2x" xml:space="preserve">
+    <value>Анизотропия 2x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic4x" xml:space="preserve">
+    <value>Анизотропия 4x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic8x" xml:space="preserve">
+    <value>Анизотропия 8x</value>
+  </data>
+  <data name="VideoFilteringBilinear" xml:space="preserve">
+    <value>билинейная</value>
+  </data>
+  <data name="VideoFilteringTrilinear" xml:space="preserve">
+    <value>трилинейная</value>
+  </data>
+  <data name="VideoVSyncOff" xml:space="preserve">
+    <value>Откл</value>
+  </data>
+  <data name="VideoVSyncOn" xml:space="preserve">
+    <value>Вкл</value>
+  </data>
+  <data name="VideoEnumAntiAliasing" xml:space="preserve">
+    <value>{0}x</value>
+  </data>
+  <data name="ControlJump" xml:space="preserve">
+    <value>Прыжок</value>
+  </data>
+  <data name="GenLoadingDots" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="MenuAchievements" xml:space="preserve">
+    <value>Достижения</value>
+  </data>
+  <data name="MenuArmory" xml:space="preserve">
+    <value>Арсенал</value>
+  </data>
+  <data name="HUDRageLevelX" xml:space="preserve">
+    <value>Ярость уровня {0}!</value>
+  </data>
+  <data name="HUDStageAmmo" xml:space="preserve">
+    <value>Боеприпасы</value>
+  </data>
+  <data name="HUDStageCompleted" xml:space="preserve">
+    <value>ЗАВЕРШЕНО</value>
+  </data>
+  <data name="HUDStageHP" xml:space="preserve">
+    <value>ХП</value>
+  </data>
+  <data name="HUDStageRage" xml:space="preserve">
+    <value>Ярость</value>
+  </data>
+  <data name="HUDStageTime" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="HUDStageX" xml:space="preserve">
+    <value>Уровень {0}</value>
+  </data>
+  <data name="HUDWarnNotEnoughAmmo" xml:space="preserve">
+    <value>Недостаточно патронов</value>
+  </data>
+  <data name="HUDWarnNotEnoughRage" xml:space="preserve">
+    <value>Низкий уровень ярости</value>
+  </data>
+  <data name="HUDWarnOnCooldown" xml:space="preserve">
+    <value>Вы не можете сделать это сейчас</value>
+  </data>
+  <data name="HUDWarnTooClose" xml:space="preserve">
+    <value>Вы находитесь слишком близко.</value>
+  </data>
+  <data name="ScoreKilledByPiranhas" xml:space="preserve">
+    <value>Вас съели пираньи.</value>
+  </data>
+  <data name="StatsBoxTitle" xml:space="preserve">
+    <value>Несколько чисел</value>
+  </data>
+  <data name="StatsCaughtInNet" xml:space="preserve">
+    <value>Пойман в сеть</value>
+  </data>
+  <data name="StatsDamageDealt" xml:space="preserve">
+    <value>Нанесенный урон</value>
+  </data>
+  <data name="StatsDamageTaken" xml:space="preserve">
+    <value>Принятый урон</value>
+  </data>
+  <data name="StatsHitsTaken" xml:space="preserve">
+    <value>Ударов принято</value>
+  </data>
+  <data name="StatsTitle" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="StatsUnitsKilled" xml:space="preserve">
+    <value>Всего противников убито</value>
+  </data>
+  <data name="WeaponBlaster" xml:space="preserve">
+    <value>Бластер</value>
+  </data>
+  <data name="WeaponCannon" xml:space="preserve">
+    <value>Пушка</value>
+  </data>
+  <data name="WeaponGatling" xml:space="preserve">
+    <value>Пулемет</value>
+  </data>
+  <data name="WeaponHammer" xml:space="preserve">
+    <value>Молот</value>
+  </data>
+  <data name="WeaponRifle" xml:space="preserve">
+    <value>Ружье</value>
+  </data>
+  <data name="WeaponSpear" xml:space="preserve">
+    <value>Копье</value>
+  </data>
+  <data name="WeaponSword" xml:space="preserve">
+    <value>Меч</value>
+  </data>
+  <data name="AchiFeedTheFishes" xml:space="preserve">
+    <value>Покормите рыбок</value>
+  </data>
+  <data name="AchiFindTinyTom" xml:space="preserve">
+    <value>Найдите Крошку Тома.</value>
+  </data>
+  <data name="AchiMakePiranasKill10Zombies" xml:space="preserve">
+    <value>Пираньи должны убить 10 зомби в ходе одной попытки.</value>
+  </data>
+  <data name="AchiTinyTom" xml:space="preserve">
+    <value>Крошка Том</value>
+  </data>
+  <data name="MenuUnableToLoadProfile" xml:space="preserve">
+    <value>Не удается загрузить профиль</value>
+  </data>
+  <data name="MenuUnableToLoadProfileDetails" xml:space="preserve">
+    <value>Файл профиля поврежден.</value>
+  </data>
+  <data name="AchiFindTomsDog" xml:space="preserve">
+    <value>Найдите собаку Крошки Тома.</value>
+  </data>
+  <data name="AchiTomsDog" xml:space="preserve">
+    <value>Собака Крошки Тома</value>
+  </data>
+  <data name="HUDMalaria" xml:space="preserve">
+    <value>Малярия</value>
+  </data>
+  <data name="GenSupport" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="AchiCloseAllDoorsOnLevelC" xml:space="preserve">
+    <value>Закройте все двери на карте "Древний город".</value>
+  </data>
+  <data name="AchiCompleteArenaWithoutHit" xml:space="preserve">
+    <value>Пройдите карту "Арена", не получив ни одного удара.</value>
+  </data>
+  <data name="AchiLimitingYourChoises" xml:space="preserve">
+    <value>Ограничение выбора</value>
+  </data>
+  <data name="AchiNotAScrath" xml:space="preserve">
+    <value>Ни царапины</value>
+  </data>
+  <data name="AchiHonorThePiranas" xml:space="preserve">
+    <value>Помощь пираньям</value>
+  </data>
+  <data name="AchiMakeAllBullsDieFromPiranas" xml:space="preserve">
+    <value>Помогите пираньям сожрать всех быков на карте "В сумрак".</value>
+  </data>
+  <data name="MenuBannedKey" xml:space="preserve">
+    <value>Ваш ключ заблокирован. Если вы считаете, что это ошибка, свяжитесь с нами по аресу электронной почты support@deadmeetslead.com или попытайтесь ввести ключ еще раз.</value>
+  </data>
+  <data name="MenuBannedKeyTitle" xml:space="preserve">
+    <value>Ключ заблокирован</value>
+  </data>
+  <data name="MenuNoValidKey" xml:space="preserve">
+    <value>Пожалуйста, введите ключ продукта.</value>
+  </data>
+  <data name="MenuNoValidKeyTitle" xml:space="preserve">
+    <value>Активация продукта</value>
+  </data>
+  <data name="MenuNewVersionAvailable" xml:space="preserve">
+    <value>Вы хотите загрузить и установить ее сейчас?</value>
+  </data>
+  <data name="MenuNewVersionAvailableTitle" xml:space="preserve">
+    <value>Доступна новая версия!</value>
+  </data>
+  <data name="MenuUnknownLanguage" xml:space="preserve">
+    <value>Ваш лицензионный ключ предназначен для игры на языке, не поддерживаемом в данной версии игры. Пожалуйста, установите последнюю версию игры.</value>
+  </data>
+  <data name="MenuUnknownLanguageTitle" xml:space="preserve">
+    <value>Неизвестный язык</value>
+  </data>
+  <data name="MenuInvalidKey" xml:space="preserve">
+    <value>Введнный вами ключ не подходит.</value>
+  </data>
+  <data name="MenuInvalidKeyTitle" xml:space="preserve">
+    <value>Неверный ключ</value>
+  </data>
+  <data name="MenuSkipTutorial" xml:space="preserve">
+    <value>обучение</value>
+  </data>
+  <data name="MenuSkipTutorial2" xml:space="preserve">
+    <value>доп. обучение</value>
+  </data>
+  <data name="AchiAvoidGettingCaughtInAnyNetOnLevelQ" xml:space="preserve">
+    <value>Не попадитесь в сеть на карте "Орда".</value>
+  </data>
+  <data name="AchiSlipperyNipple" xml:space="preserve">
+    <value>Скользкий тип</value>
+  </data>
+  <data name="AchiCompleteAdvancedTutorialWithoutKillingAnyGrunts" xml:space="preserve">
+    <value>Пройдите "Доп. обучение", не убивая зомби.</value>
+  </data>
+  <data name="AchiRottensForDinner" xml:space="preserve">
+    <value>Трупоеды без обеда</value>
+  </data>
+  <data name="ErrorUnableToConnect" xml:space="preserve">
+    <value>Невозможно подключиться</value>
+  </data>
+  <data name="MenuGameCompletedDialogText" xml:space="preserve">
+    <value>Вы прошли игру Dead Meets Lead! Однако, это еще не все! В правом нижнем углу экрана приведены достижения, которые вы можете получить. Попробуете?</value>
+  </data>
+  <data name="MenuGameCompletedDialogTitle" xml:space="preserve">
+    <value>Поздравляем</value>
+  </data>
+  <data name="MenuMoreNews" xml:space="preserve">
+    <value>Еще новости...</value>
+  </data>
+  <data name="MenuNews" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="GenLeftMouse" xml:space="preserve">
+    <value>ЛКМ</value>
+  </data>
+  <data name="GenMiddleMouse" xml:space="preserve">
+    <value>СКМ</value>
+  </data>
+  <data name="GenRightMouse" xml:space="preserve">
+    <value>ПКМ</value>
+  </data>
+  <data name="Abaddon" xml:space="preserve">
+    <value>Аваддон</value>
+  </data>
+  <data name="AbaddonText" xml:space="preserve">
+    <value>ВЛАДЫКА БЕЗДНЫ</value>
+  </data>
+  <data name="Brutus" xml:space="preserve">
+    <value>Брутий</value>
+  </data>
+  <data name="BrutusText" xml:space="preserve">
+    <value>КОРОЛЬ ЗОМБИ</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Волк</value>
+  </data>
+  <data name="WolfText" xml:space="preserve">
+    <value>ВЕЛИКИЙ И УЖАСНЫЙ</value>
+  </data>
+</root>

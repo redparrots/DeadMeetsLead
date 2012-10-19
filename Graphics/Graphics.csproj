@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAC02AF9-F07E-4117-B5B3-20A659F694C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Graphics</RootNamespace>
+    <AssemblyName>Graphics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>../Keldyn.pfx</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BETA_RELEASE JMOD_IGNORENOTIMPL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugHard|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DebugHard\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DEBUG_HARD BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugHard|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugHard\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DEBUG_HARD BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BetaRelease|AnyCPU' ">
+    <OutputPath>bin\BetaRelease\</OutputPath>
+    <DefineConstants>TRACE;BETA_RELEASE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BetaRelease|x86' ">
+    <OutputPath>bin\x86\BetaRelease\</OutputPath>
+    <DefineConstants>TRACE;BETA_RELEASE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FMOD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" Condition="'$(Configuration)' == 'Debug'">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\FMOD.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RedGate.Profiler.UserEvents, Version=5.1.0.14, Culture=neutral, PublicKeyToken=7f465a1c156d4d57, processorArchitecture=MSIL" Condition="'$(Configuration)' == 'Debug'">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RedGate.Profiler.UserEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Boundings.cs" />
+    <Compile Include="BoundingVolumesRenderer.cs" />
+    <Compile Include="Camera.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Content\ColladaDocument.cs" />
+    <Compile Include="Content\ColladaLoader.cs" />
+    <Compile Include="Content\CommonMetaResources.cs" />
+    <Compile Include="Content\Content.cs" />
+    <Compile Include="Content\CustomAllocateHierarchy.cs" />
+    <Compile Include="Content\DataLink.cs" />
+    <Compile Include="Content\Font.cs" />
+    <Compile Include="Content\GlyphString.cs" />
+    <Compile Include="Content\Graphic.cs" />
+    <Compile Include="Content\Mesh.cs" />
+    <Compile Include="Content\MeshConcretizers.cs" />
+    <Compile Include="Content\Texture.cs" />
+    <Compile Include="Content\MetaResource.cs" />
+    <Compile Include="Content\Model.cs" />
+    <Compile Include="Content\SkinnedMesh.cs" />
+    <Compile Include="Cursors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\BoundingRegionEditor.cs" />
+    <Compile Include="Editors\GroundTextureEditor.cs" />
+    <Compile Include="Editors\SceneEditor.cs" />
+    <Compile Include="Editors\SceneEditorRenderer.cs" />
+    <Compile Include="Editors\SceneEditorStates.cs" />
+    <Compile Include="GraphicsDevice\Device9StateManager.cs" />
+    <Compile Include="GraphicsDevice\DummyDevice9StateManager.cs" />
+    <Compile Include="GraphicsDevice\GraphicsDevice.cs" />
+    <Compile Include="GraphicsDevice\GraphicsDevice10.cs" />
+    <Compile Include="GraphicsDevice\GraphicsDevice9.cs" />
+    <Compile Include="GraphicsDevice\IDevice9StateManager.cs" />
+    <Compile Include="GraphicsDevice\SettingConverters.cs" />
+    <Compile Include="GraphicsDevice\Settings.cs" />
+    <Compile Include="InteractiveSceneManager.cs" />
+    <Compile Include="Interface\ArrowIndicator.cs" />
+    <Compile Include="Interface\Console.cs" />
+    <Compile Include="Interface\DeltaProgressBar.cs" />
+    <Compile Include="Interface\DropDownBar.cs" />
+    <Compile Include="Interface\Fader.cs" />
+    <Compile Include="Entity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FloatingGraphic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FloatingText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeoclipmappedTerrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InputHandler.cs" />
+    <Compile Include="Interface\Button.cs" />
+    <Compile Include="Interface\Caret.cs" />
+    <Compile Include="Interface\Checkbox.cs" />
+    <Compile Include="Interface\Control.cs" />
+    <Compile Include="Interface\FlowLayout.cs" />
+    <Compile Include="Interface\Form.cs" />
+    <Compile Include="Interface\Grid.cs" />
+    <Compile Include="Interface\IInterfaceRenderer.cs" />
+    <Compile Include="Interface\InterfaceManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\InterfaceRenderer10.cs" />
+    <Compile Include="Interface\InterfaceRenderer9.cs" />
+    <Compile Include="Interface\InterfaceScene.cs" />
+    <Compile Include="Interface\PopupContainer.cs" />
+    <Compile Include="Interface\ProgramConfigurationInformationControl.cs" />
+    <Compile Include="Interface\ProgressBar.cs">
+    </Compile>
+    <Compile Include="Interface\TextBox.cs" />
+    <Compile Include="Interface\TextBoxCaret.cs" />
+    <Compile Include="Interface\TextBoxDocument.cs" />
+    <Compile Include="Interface\TextBoxInput.cs" />
+    <Compile Include="Interface\ToolTip.cs" />
+    <Compile Include="Interface\WorldSceneControl.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Intersection.cs" />
+    <Compile Include="ISceneRendererConnector.cs" />
+    <Compile Include="LayoutEngine.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="OrientationUtil.cs" />
+    <Compile Include="Particle.cs" />
+    <Compile Include="ParticleEffect.cs" />
+    <Compile Include="ParticleEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <CompiledFX_4_0 Include="RenderingUtil\VisualizeTexture3D.fx" />
+    <CompiledFX_4_0 Include="RenderingUtil\Linedrawing.fx" />
+    <CompiledFX_4_0 Include="RenderingUtil\VisualizeBuffer.fx" />
+    <CompiledFX_4_0 Include="RenderingUtil\Overdraw.fx" />
+    <CompiledFX_4_0 Include="RenderingUtil\Common.fx" />
+    <CompiledFX_4_0 Include="RenderingUtil\BlitTexture.fx" />
+    <Compile Include="RawInput.cs" />
+    <Compile Include="Renderer\IRenderer.cs" />
+    <Compile Include="Renderer\RenderingTools.cs" />
+    <Compile Include="Renderer\RenderLeaf.cs" />
+    <Compile Include="Renderer\RenderMesh.cs" />
+    <Compile Include="Renderer\RenderObject.cs" />
+    <Compile Include="Renderer\RenderRoot.cs" />
+    <Compile Include="Renderer\RenderSkinnedMesh.cs" />
+    <Compile Include="Renderer\RenderSplatMesh.cs" />
+    <Compile Include="Renderer\RenderSplatTechnique.cs" />
+    <Compile Include="Renderer\RenderTechnique.cs" />
+    <Compile Include="Renderer\Settings.cs" />
+    <Compile Include="Renderer\SortedTestRenderer.cs" />
+    <Compile Include="RenderingUtil\RenderingUtil.cs" />
+    <Compile Include="RenderTreeVisualizer.cs" />
+    <Compile Include="Scene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SceneBVHAutoSyncer.cs" />
+    <Compile Include="SceneInterfaceRendererConnector.cs" />
+    <Compile Include="SceneRendererConnector.cs" />
+    <Compile Include="Software\Mesh.cs" />
+    <Compile Include="Software\Meshes.cs" />
+    <Compile Include="Software\Texel.cs" />
+    <Compile Include="Software\Texture.cs" />
+    <Compile Include="Software\Textures.cs" />
+    <Compile Include="Software\Triangle.cs" />
+    <Compile Include="Software\Vertex.cs" />
+    <Compile Include="Software\VertexBuffer.cs" />
+    <Compile Include="SortedTestSceneRendererConnector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpatialRelation.cs" />
+    <Compile Include="TextureUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WalkaroundCamera.cs" />
+    <Compile Include="Win32\NativeMethods.cs" />
+    <Compile Include="Win32\NativeStructures.cs" />
+    <Compile Include="Win32\WindowConstants.cs" />
+    <Compile Include="WorldViewProbe.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{C6913286-7A1B-4661-A505-0EBFDC769E01}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shaders\Shaders.csproj">
+      <Project>{B6338BF2-888F-49BC-AB96-97CED730B866}</Project>
+      <Name>Shaders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ButtonBorder.png" />
+    <EmbeddedResource Include="Resources\ButtonClickBorder.png" />
+    <EmbeddedResource Include="Resources\ButtonHoverBorder.png" />
+    <EmbeddedResource Include="Resources\Checked.png" />
+    <EmbeddedResource Include="Resources\FormBorder.png" />
+    <EmbeddedResource Include="Resources\SlimBorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <CompiledFX_4_0 Include="RenderingUtil\GBuffer.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\DesktopGraphicsCardsByRank.txt" />
+    <EmbeddedResource Include="Resources\GreenArrow.png" />
+    <EmbeddedResource Include="Resources\FormBorderOutlined.png" />
+    <EmbeddedResource Include="Resources\FormBorderFilled.png" />
+    <Content Include="Resources\LaptopGraphicsCardsByRank.txt" />
+    <EmbeddedResource Include="Resources\RedArrow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <AvailableItemName Include="CompiledFX_2_0">
+      <Visible>false</Visible>
+    </AvailableItemName>
+    <AvailableItemName Include="CompiledFX_4_0">
+      <Visible>false</Visible>
+    </AvailableItemName>
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Exec Command="fxc /T fx_4_0 /Fo %(CompiledFX_4_0.FullPath)o %(CompiledFX_4_0.FullPath)" Outputs="%(CompiledFX_4_0.Identity)o">
+      <Output TaskParameter="Outputs" ItemName="EmbeddedResource" />
+    </Exec>
+  </Target>
+  <!--
+  <Target Name="AfterBuild">
+    <AL EmbedResources="@(CompiledFXOutput)"
+		    SourceModules="$(TargetName).dll"
+		    OutputAssembly="$(TargetName).dll" />
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B1F6F51-825B-4161-8826-AD795ECCE3F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Client</RootNamespace>
+    <AssemblyName>DeadMeetsLead</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>DesktopIcon1.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>../Keldyn.pfx</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BETA_RELEASE JMOD_IGNORENOTIMPL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BETA_RELEASE JMOD_IGNORENOTIMPL</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugHard|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DebugHard\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DEBUG_HARD BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugHard|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugHard\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DEBUG_HARD BETA_RELEASE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BetaRelease|AnyCPU' ">
+    <OutputPath>bin\BetaRelease\</OutputPath>
+    <DefineConstants>TRACE;BETA_RELEASE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'BetaRelease|x86' ">
+    <OutputPath>bin\x86\BetaRelease\</OutputPath>
+    <DefineConstants>TRACE;BETA_RELEASE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FMOD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" Condition="'$(Configuration)' == 'Debug'">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\FMOD.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RedGate.Profiler.UserEvents, Version=5.1.0.14, Culture=neutral, PublicKeyToken=7f465a1c156d4d57, processorArchitecture=MSIL" Condition="'$(Configuration)' == 'Debug'">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RedGate.Profiler.UserEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Achievements.cs" />
+    <Compile Include="Campaign.cs" />
+    <Compile Include="ClientXmlFormatterBinder.cs" />
+    <Compile Include="DamageVSRageGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DamageVSRageGraphControl.Designer.cs">
+      <DependentUpon>DamageVSRageGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeveloperSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeveloperSettings.Designer.cs">
+      <DependentUpon>DeveloperSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileUploader.cs" />
+    <Compile Include="GameDownloader.cs" />
+    <Compile Include="Game\CameraController.cs" />
+    <Compile Include="Game\EntityFader.cs" />
+    <Compile Include="Game\Game.cs" />
+    <Compile Include="Game\GameInGameState.cs" />
+    <Compile Include="Game\GameLoadingState.cs" />
+    <Compile Include="Game\HelperVisualizations.cs" />
+    <Compile Include="Game\Input.cs" />
+    <Compile Include="Game\Interface\HUD.cs" />
+    <Compile Include="Game\Interface\InGameMenu.cs" />
+    <Compile Include="Game\Interface\Interface.cs" />
+    <Compile Include="Game\Interface\LoadingScreen.cs" />
+    <Compile Include="Game\Interface\RatingBox.cs" />
+    <Compile Include="Game\Interface\ScoreScreen.cs" />
+    <Compile Include="Game\Interface\Stages.cs" />
+    <Compile Include="Game\Interface\StartScreen.cs" />
+    <Compile Include="Game\Interface\TextPopups.cs" />
+    <Compile Include="Game\Map\Abilities.cs" />
+    <Compile Include="Game\Map\Action.cs" />
+    <Compile Include="Game\Map\Buffs.cs" />
+    <Compile Include="Game\Map\Destructible.cs" />
+    <Compile Include="Game\Map\Effects\CritEffect.cs" />
+    <Compile Include="Game\Map\Effects\Effects.cs" />
+    <Compile Include="Game\Map\Effects\FireBreathEffect.cs" />
+    <Compile Include="Game\Map\Effects\FireGunEffect.cs" />
+    <Compile Include="Game\Map\Effects\SlamEffect.cs" />
+    <Compile Include="Game\Map\Effects\ZombieDamageEffects.cs" />
+    <Compile Include="Game\Map\EntityProperty.cs" />
+    <Compile Include="Game\Map\GameEntity.cs" />
+    <Compile Include="Game\Map\Ground.cs" />
+    <Compile Include="Game\Map\Map.cs" />
+    <Compile Include="Game\Map\MapPersistence.cs" />
+    <Compile Include="Game\Map\NPC.cs" />
+    <Compile Include="Game\Map\Pickups.cs" />
+    <Compile Include="Game\Map\Point.cs" />
+    <Compile Include="Game\Map\Projectiles.cs" />
+    <Compile Include="Game\Map\Props\Decals.cs" />
+    <Compile Include="Game\Map\Props\ManMade.cs" />
+    <Compile Include="Game\Map\Props\Plants.cs" />
+    <Compile Include="Game\Map\Props\Props.cs" />
+    <Compile Include="Game\Map\Region.cs" />
+    <Compile Include="Game\Map\Script.cs" />
+    <Compile Include="Game\Map\Scripts.cs" />
+    <Compile Include="Game\Map\Unit.cs" />
+    <Compile Include="Game\Map\UnitAnimation.cs" />
+    <Compile Include="Game\Map\UnitGroup.cs" />
+    <Compile Include="Game\Map\Units\Brute.cs" />
+    <Compile Include="Game\Map\Units\Bull.cs" />
+    <Compile Include="Game\Map\Units\Cleric.cs" />
+    <Compile Include="Game\Map\Units\ClericBoss.cs" />
+    <Compile Include="Game\Map\Units\Commander.cs" />
+    <Compile Include="Game\Map\Units\DemonLord.cs" />
+    <Compile Include="Game\Map\Units\Ghoul.cs" />
+    <Compile Include="Game\Map\Units\Grunt.cs" />
+    <Compile Include="Game\Map\Units\Hound.cs" />
+    <Compile Include="Game\Map\Units\HumanZombie.cs" />
+    <Compile Include="Game\Map\Units\Infected.cs" />
+    <Compile Include="Game\Map\Units\MainCharacter.cs" />
+    <Compile Include="Game\Map\Units\MainCharacterAbilities.cs" />
+    <Compile Include="Game\Map\Units\Mongrel.cs" />
+    <Compile Include="Game\Map\Units\Rotten.cs" />
+    <Compile Include="Game\Map\Units\WolfBoss.cs" />
+    <Compile Include="Game\Map\Units\ZombieBoss.cs" />
+    <Compile Include="Game\Mechanics\Manager.cs" />
+    <Compile Include="Game\Mechanics\TeamReleations.cs" />
+    <Compile Include="Game\PreLoading.cs" />
+    <Compile Include="Game\Replay.cs" />
+    <Compile Include="Game\Statistics.cs" />
+    <Compile Include="HelpPopup.cs" />
+    <Compile Include="Interface.cs" />
+    <Compile Include="OptionScreen.cs" />
+    <Compile Include="Profile.cs" />
+    <Compile Include="Game\RendererSettingsController.cs" />
+    <Compile Include="Game\SceneManager.cs" />
+    <Compile Include="Game\TestMaps.cs" />
+    <Compile Include="Game\TestMapsChallenges.cs" />
+    <Compile Include="Game\Water.cs" />
+    <Compile Include="Profilers.cs" />
+    <Compile Include="Program.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgramEvents.cs" />
+    <Compile Include="ProgramStates\ChallengeMapMenu.cs" />
+    <Compile Include="ProgramStates\DeveloperMainMenu.cs" />
+    <Compile Include="ProgramStates\IState.cs" />
+    <Compile Include="ProgramStates\MainMenu.cs" />
+    <Compile Include="ProgramStates\ProfileMenu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DeveloperSettings.resx">
+      <DependentUpon>DeveloperSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnhandledExceptionDialog.resx">
+      <DependentUpon>UnhandledExceptionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDownloader.resx">
+      <DependentUpon>UpdateDownloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PublicSettings.cs" />
+    <Compile Include="RageGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RageGraphControl.Designer.cs">
+      <DependentUpon>RageGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serialization.cs" />
+    <Compile Include="SettingProfiles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Sound\DummySound.cs" />
+    <Compile Include="Sound\FMODGlue\FMODChannel.cs" Condition="'$(Configuration)' == 'Debug'" />
+    <Compile Include="Sound\FMODGlue\FMODManager.cs" Condition="'$(Configuration)' == 'Debug'" />
+    <Compile Include="Sound\FMODGlue\FMODSound.cs" Condition="'$(Configuration)' == 'Debug'" />
+    <Compile Include="Sound\FMODGlue\FMODSoundGroup.cs" Condition="'$(Configuration)' == 'Debug'" />
+    <Compile Include="Sound\FMODGlue\FMODSystem.cs" Condition="'$(Configuration)' == 'Debug'" />
+    <Compile Include="Sound\IGlue.cs" />
+    <Compile Include="Sound\JMODGlue\JMODChannel.cs" />
+    <Compile Include="Sound\JMODGlue\JMODManager.cs" />
+    <Compile Include="Sound\JMODGlue\JMODSound.cs" />
+    <Compile Include="Sound\JMODGlue\JMODSoundGroup.cs" />
+    <Compile Include="Sound\JMODGlue\JMODSystem.cs" />
+    <Compile Include="Sound\Playable.cs" />
+    <Compile Include="Sound\Settings.cs" />
+    <Compile Include="Sound\Sound.cs" />
+    <Compile Include="Sound\SoundChannel.cs" />
+    <Compile Include="Sound\SoundManager.cs" />
+    <Compile Include="Sound\Sounds.cs" />
+    <Compile Include="UnhandledExceptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnhandledExceptionDialog.Designer.cs">
+      <DependentUpon>UnhandledExceptionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDownloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDownloader.designer.cs">
+      <DependentUpon>UpdateDownloader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{C6913286-7A1B-4661-A505-0EBFDC769E01}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FeedbackCommon\FeedbackCommon.csproj">
+      <Project>{43FBE879-F830-4984-960B-209A22FD2D87}</Project>
+      <Name>FeedbackCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Graphics\Graphics.csproj">
+      <Project>{DAC02AF9-F07E-4117-B5B3-20A659F694C4}</Project>
+      <Name>Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JMOD\JMOD.csproj">
+      <Project>{767B4EA8-7FC9-4141-A810-E174D75DA1FA}</Project>
+      <Name>JMOD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locale\Locale.csproj">
+      <Project>{97FC1BD2-39CA-464B-B14D-4D6DC4685999}</Project>
+      <Name>Locale</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DesktopIcon1.ico" />
+    <Content Include="fmodex.dll" Condition="'$(Configuration)' == 'Debug'">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

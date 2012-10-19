@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AchiAllIn" xml:space="preserve">
+    <value>All in</value>
+  </data>
+  <data name="AchiAmmoConservative" xml:space="preserve">
+    <value>Ammo conservative</value>
+  </data>
+  <data name="AchiBarbecue" xml:space="preserve">
+    <value>Barbecue</value>
+  </data>
+  <data name="AchiBloodboil" xml:space="preserve">
+    <value>Bloodboil</value>
+  </data>
+  <data name="AchiBloodSweatAndTears" xml:space="preserve">
+    <value>Blood, sweat and tears</value>
+  </data>
+  <data name="AchiBoom" xml:space="preserve">
+    <value>BAM</value>
+  </data>
+  <data name="AchiBoxcutter" xml:space="preserve">
+    <value>Boxcutter</value>
+  </data>
+  <data name="AchiBraindead" xml:space="preserve">
+    <value>Braindead</value>
+  </data>
+  <data name="AchiBurningHisMinions" xml:space="preserve">
+    <value>Friendly fire</value>
+  </data>
+  <data name="AchiCallForthTheDemon" xml:space="preserve">
+    <value>An early demon</value>
+  </data>
+  <data name="AchiChampionOfTheDead" xml:space="preserve">
+    <value>Champion of the dead</value>
+  </data>
+  <data name="AchiCleanseTheLands" xml:space="preserve">
+    <value>Cleanse the lands</value>
+  </data>
+  <data name="AchiCompleteAllLevels" xml:space="preserve">
+    <value>Complete all levels.</value>
+  </data>
+  <data name="AchiCompleteAmbushWithoutHitting" xml:space="preserve">
+    <value>Complete "Ambush" without hitting any zombies.</value>
+  </data>
+  <data name="AchiCompleteCommandersWithoutHit" xml:space="preserve">
+    <value>Complete "Commanders" without taking a hit.</value>
+  </data>
+  <data name="AchiCompleteFireAwayWithoutUsing" xml:space="preserve">
+    <value>Complete "Fire Away!" without using your ranged weapon.</value>
+  </data>
+  <data name="AchiCompleteGauntletInLessThanXSeconds" xml:space="preserve">
+    <value>Complete "Gauntlet" in less than {0} seconds.</value>
+  </data>
+  <data name="AchiCompleteGodSpeedLessThanXSeconds" xml:space="preserve">
+    <value>Complete "God Speed" in less than {0} seconds.</value>
+  </data>
+  <data name="AchiCompleteReverseGauntletWithoutChests" xml:space="preserve">
+    <value>Complete "Reverse Gauntlet" without destroying any regular chests.</value>
+  </data>
+  <data name="AchiCompleteTheGame" xml:space="preserve">
+    <value>Complete the game.</value>
+  </data>
+  <data name="AchiDeadMeetsLead" xml:space="preserve">
+    <value>Dead Meets Lead</value>
+  </data>
+  <data name="AchiDestroyAllBoxesOnTheCliff" xml:space="preserve">
+    <value>Destroy all boxes on "The Cliff" within 2 minutes.</value>
+  </data>
+  <data name="AchiGainRageLevel4OnLevelA" xml:space="preserve">
+    <value>Gain rage level 5 on "Stranded".</value>
+  </data>
+  <data name="AchiGauntletChallengeX" xml:space="preserve">
+    <value>Gauntlet challenge {0}</value>
+  </data>
+  <data name="AchiGettingRidOfTheirBoss" xml:space="preserve">
+    <value>Getting rid of the boss</value>
+  </data>
+  <data name="AchiGodSpeedChallengeX" xml:space="preserve">
+    <value>God Speed challenge {0}</value>
+  </data>
+  <data name="AchiGoingCrazyAndLovingIt" xml:space="preserve">
+    <value>Going crazy and loving it</value>
+  </data>
+  <data name="AchiHurtButNotDead" xml:space="preserve">
+    <value>Hurt, but not dead</value>
+  </data>
+  <data name="AchiIAmCalmTrustMe" xml:space="preserve">
+    <value>I am calm, trust me</value>
+  </data>
+  <data name="AchiIGotLeadInMyVeins" xml:space="preserve">
+    <value>I got lead in my veins</value>
+  </data>
+  <data name="AchiIntentionToWin" xml:space="preserve">
+    <value>Intention to win</value>
+  </data>
+  <data name="AchiInTheirFace" xml:space="preserve">
+    <value>In their face</value>
+  </data>
+  <data name="AchiIStillHaveMyWeapons" xml:space="preserve">
+    <value>I still have my weapons</value>
+  </data>
+  <data name="AchiKillTheDemonLord" xml:space="preserve">
+    <value>Kill the demon lord.</value>
+  </data>
+  <data name="AchiKillTheWolfBoss" xml:space="preserve">
+    <value>Kill the wolf.</value>
+  </data>
+  <data name="AchiKillTheZombieBoss" xml:space="preserve">
+    <value>Kill the zombie leader.</value>
+  </data>
+  <data name="AchiKillXZombiesInLessThanYSeconds" xml:space="preserve">
+    <value>Kill {0} zombies in less than {1} seconds.</value>
+  </data>
+  <data name="AchiLandAHitForOverXDamage" xml:space="preserve">
+    <value>Land a hit for over {0} damage.</value>
+  </data>
+  <data name="AchiLetTheBullHandleIt" xml:space="preserve">
+    <value>Let the bull handle it</value>
+  </data>
+  <data name="AchiMake10ConsecutiveTries" xml:space="preserve">
+    <value>Make 10 consecutive tries on a single map.</value>
+  </data>
+  <data name="AchiMake20ConsecutiveTries" xml:space="preserve">
+    <value>Make 20 consecutive tries on a single map.</value>
+  </data>
+  <data name="AchiMake50ConsecutiveTries" xml:space="preserve">
+    <value>Make 50 consecutive tries on a single map.</value>
+  </data>
+  <data name="AchiMake5ConsecutiveTries" xml:space="preserve">
+    <value>Make 5 consecutive tries on a single map.</value>
+  </data>
+  <data name="AchiMakeABullChargeZombie" xml:space="preserve">
+    <value>Make a bull charge a zombie to death.</value>
+  </data>
+  <data name="AchiMakeAClericKillAZombie" xml:space="preserve">
+    <value>Make a voodoo priest kill a voodoo priest.</value>
+  </data>
+  <data name="AchiMedicalAttention" xml:space="preserve">
+    <value>Medical attention?</value>
+  </data>
+  <data name="AchiMentalMeltdown" xml:space="preserve">
+    <value>Mental meltdown</value>
+  </data>
+  <data name="AchiNeedToSharpenMyWeapons" xml:space="preserve">
+    <value>No mercy</value>
+  </data>
+  <data name="AchiNeverGonnaLetThemGo" xml:space="preserve">
+    <value>Never gonna let them go</value>
+  </data>
+  <data name="AchiNoPatience" xml:space="preserve">
+    <value>No patience</value>
+  </data>
+  <data name="AchiOutOfTheBox" xml:space="preserve">
+    <value>Out of the box</value>
+  </data>
+  <data name="AchiPacifist" xml:space="preserve">
+    <value>Pacifist</value>
+  </data>
+  <data name="AchiReachRageLevelXAnyLevel" xml:space="preserve">
+    <value>Reach rage level {0} on any level.</value>
+  </data>
+  <data name="AchiSlay10000Zombies" xml:space="preserve">
+    <value>Slay 10000 Zombies.</value>
+  </data>
+  <data name="AchiSlay1000Zombies" xml:space="preserve">
+    <value>Slay 1000 Zombies.</value>
+  </data>
+  <data name="AchiSlay50000Zombies" xml:space="preserve">
+    <value>Slay 20000 Zombies.</value>
+  </data>
+  <data name="AchiSlay5000Zombies" xml:space="preserve">
+    <value>Slay 5000 Zombies.</value>
+  </data>
+  <data name="AchiSneaky" xml:space="preserve">
+    <value>Sneaky</value>
+  </data>
+  <data name="AchiTakeXDamageDuringASingleTry" xml:space="preserve">
+    <value>Take {0} damage during a single try.</value>
+  </data>
+  <data name="AchiTheDemonLordsPet" xml:space="preserve">
+    <value>The demon lord's pet</value>
+  </data>
+  <data name="AchiZombieMassacre" xml:space="preserve">
+    <value>Zombie massacre</value>
+  </data>
+  <data name="AchiCompleteGauntletInLessThan1Minute" xml:space="preserve">
+    <value>Complete "Gauntlet" in less than 1 minute.</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="ControlMelee" xml:space="preserve">
+    <value>Melee Weapon</value>
+  </data>
+  <data name="ControlMoveBackward" xml:space="preserve">
+    <value>Move Backward</value>
+  </data>
+  <data name="ControlMoveForward" xml:space="preserve">
+    <value>Move Forward</value>
+  </data>
+  <data name="ControlRanged" xml:space="preserve">
+    <value>Ranged Weapon</value>
+  </data>
+  <data name="Controls" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="ControlSettingsTitle" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="ControlStrafeLeft" xml:space="preserve">
+    <value>Strafe Left</value>
+  </data>
+  <data name="ControlStrafeRight" xml:space="preserve">
+    <value>Strafe Right</value>
+  </data>
+  <data name="DeadMeetsLead" xml:space="preserve">
+    <value>Dead Meets Lead</value>
+  </data>
+  <data name="ErrorFailInitSoundDevice" xml:space="preserve">
+    <value>Failed to initialize sound device. The game can still run, but will not be able to play sounds.</value>
+  </data>
+  <data name="ErrorFailInitSoundDeviceTitle" xml:space="preserve">
+    <value>Failed to initialize sound device</value>
+  </data>
+  <data name="ErrorFailSetAudioDevice" xml:space="preserve">
+    <value>Unable to set audio device. Please make sure that your audio device(s) is/are enabled and working. Until then your game will not be audible.
+
+Error:
+{0}</value>
+  </data>
+  <data name="ErrorFailSetAudioDeviceTitle" xml:space="preserve">
+    <value>Unable to set audio device</value>
+  </data>
+  <data name="ErrorLowShaderModel" xml:space="preserve">
+    <value>Your graphics card does not support shader model 3.0 or higher. Game is shutting down.</value>
+  </data>
+  <data name="ErrorUnhandledException" xml:space="preserve">
+    <value>An unexpected error has occurred. Sending crash data...</value>
+  </data>
+  <data name="ErrorWrongFrameworkVersion" xml:space="preserve">
+    <value>It appears you don't have a correct setup of the .NET-framework installed. The game may not run as intended or not at all.
+
+{0}
+
+Do you want to continue anyway?</value>
+  </data>
+  <data name="ErrorWrongFrameworkVersionTitle" xml:space="preserve">
+    <value>Missing .NET-framework installation</value>
+  </data>
+  <data name="GenAchievementCaps" xml:space="preserve">
+    <value>ACHIEVEMENT</value>
+  </data>
+  <data name="GenApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="GenCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="GenClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="GenContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="GenLoading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="GenMainMenu" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="GenMap" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="GenMeleeWeapon" xml:space="preserve">
+    <value>Melee weapon</value>
+  </data>
+  <data name="GenMenu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="GenNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="GenOffline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="GenOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="GenOnline" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="GenPage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="GenPlayAgain" xml:space="preserve">
+    <value>Play again</value>
+  </data>
+  <data name="GenPrev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="GenQuit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="GenRangedWeapon" xml:space="preserve">
+    <value>Ranged weapon</value>
+  </data>
+  <data name="GenRequires" xml:space="preserve">
+    <value>Requires</value>
+  </data>
+  <data name="GenRestart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="GenResume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="GenTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="HelpGhostBullet" xml:space="preserve">
+    <value>Try performing a Ghost bullet shot. Press ({0}).</value>
+  </data>
+  <data name="HelpHit" xml:space="preserve">
+    <value>Try hitting a zombie. Walk up to one and press ({0}).</value>
+  </data>
+  <data name="HelpJump" xml:space="preserve">
+    <value>You can jump by pressing ({0}).</value>
+  </data>
+  <data name="HelpMapScroll" xml:space="preserve">
+    <value>You can move around the map by clicking and dragging it.</value>
+  </data>
+  <data name="HelpPurchaseWeapon" xml:space="preserve">
+    <value>You can purchase weapons for silver coins in the armory.</value>
+  </data>
+  <data name="HelpRifle" xml:space="preserve">
+    <value>Try shooting with your rifle. Press ({0}) to equip the rifle and fire by pressing ({1}).</value>
+  </data>
+  <data name="HelpSlam" xml:space="preserve">
+    <value>Try performing a Slam. Press ({0}).</value>
+  </data>
+  <data name="HelpTipDontAlwaysNeedToKill" xml:space="preserve">
+    <value>Tip: You don't always need to kill all of the zombies.</value>
+  </data>
+  <data name="HelpTipKeepPushingForward" xml:space="preserve">
+    <value>Tip: Keep pushing forward!</value>
+  </data>
+  <data name="HelpTipRageMakesYourPowerful" xml:space="preserve">
+    <value>Tip: Getting a lot of rage can make you quite powerful.</value>
+  </data>
+  <data name="HelpTipSureAboutTheWay" xml:space="preserve">
+    <value>Tip: Are you sure you are taking the right way?</value>
+  </data>
+  <data name="HelpTipTrickTheBull" xml:space="preserve">
+    <value>Tip: Can you trick the bull in any way?</value>
+  </data>
+  <data name="HelpTryOtherWeapons" xml:space="preserve">
+    <value>Have you tried to use other combinations of weapons?</value>
+  </data>
+  <data name="HelpWASD" xml:space="preserve">
+    <value>Try moving around.
+Forward: ({0})
+Back: ({1})
+Left: ({2})
+Right: ({3})</value>
+  </data>
+  <data name="HUDAmmunition" xml:space="preserve">
+    <value>Ammunition</value>
+  </data>
+  <data name="HUDGhostBullet" xml:space="preserve">
+    <value>Ghost bullet {0}
+A long range special attack that shoots
+through walls and explodes at its target.
+Has a minimum range.</value>
+  </data>
+  <data name="HUDHitPoints" xml:space="preserve">
+    <value>Hit points
+{0} / {1}
+Regenerates slowly</value>
+  </data>
+  <data name="HUDMelee" xml:space="preserve">
+    <value>Melee attack {0}</value>
+  </data>
+  <data name="HUDRage" xml:space="preserve">
+    <value>Rage
+Kill units to gain rage. When you have 
+enough, you gain a rage level.</value>
+  </data>
+  <data name="HUDRageLevel" xml:space="preserve">
+    <value>Rage Level
+Higher rage levels makes you more powerful</value>
+  </data>
+  <data name="HUDRanged" xml:space="preserve">
+    <value>Ranged attack {0}</value>
+  </data>
+  <data name="HUDSlam" xml:space="preserve">
+    <value>Slam {0}
+An extra powerful melee attack that 
+also stuns nearby enemies. 
+Consumes Rage.</value>
+  </data>
+  <data name="HUDSwitchMelee" xml:space="preserve">
+    <value>Switch to melee weapon {0}</value>
+  </data>
+  <data name="HUDSwitchRange" xml:space="preserve">
+    <value>Switch to ranged weapon {0}</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="ScoreActions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="ScoreCaughtInNet" xml:space="preserve">
+    <value>Caught in net</value>
+  </data>
+  <data name="ScoreCharacterActions" xml:space="preserve">
+    <value>Character actions</value>
+  </data>
+  <data name="ScoreCompletedMapInXTries" xml:space="preserve">
+    <value>You completed the map in {0} try/tries.</value>
+  </data>
+  <data name="ScoreDamageDealt" xml:space="preserve">
+    <value>Damage dealt</value>
+  </data>
+  <data name="ScoreDamageTaken" xml:space="preserve">
+    <value>Damage taken</value>
+  </data>
+  <data name="ScoreDefeat" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="ScoreFighter" xml:space="preserve">
+    <value>FIGHTER</value>
+  </data>
+  <data name="ScoreFighterText" xml:space="preserve">
+    <value>Quitting is for cowards!</value>
+  </data>
+  <data name="ScoreFrenzy" xml:space="preserve">
+    <value>FRENZY</value>
+  </data>
+  <data name="ScoreFrenzyText" xml:space="preserve">
+    <value>I'm on a killing spree!</value>
+  </data>
+  <data name="ScoreGhostRifleAccuracy" xml:space="preserve">
+    <value>Ghost Rifle accuracy</value>
+  </data>
+  <data name="ScoreGhostRifleShots" xml:space="preserve">
+    <value>Ghost Rifle shots</value>
+  </data>
+  <data name="ScoreHero" xml:space="preserve">
+    <value>HERO</value>
+  </data>
+  <data name="ScoreHeroText" xml:space="preserve">
+    <value>GRRRRR!!!</value>
+  </data>
+  <data name="ScoreHitsTaken" xml:space="preserve">
+    <value>Hits taken</value>
+  </data>
+  <data name="ScoreKilledUnits" xml:space="preserve">
+    <value>Killed units</value>
+  </data>
+  <data name="ScoreRewardsAndResults" xml:space="preserve">
+    <value>Rewards &amp; Results</value>
+  </data>
+  <data name="ScoreShotgunAccuracy" xml:space="preserve">
+    <value>Shotgun accuracy</value>
+  </data>
+  <data name="ScoreShotgunShots" xml:space="preserve">
+    <value>Shotgun shots</value>
+  </data>
+  <data name="ScoreStats" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="ScoreSurvivor" xml:space="preserve">
+    <value>SURVIVOR</value>
+  </data>
+  <data name="ScoreSurvivorText" xml:space="preserve">
+    <value>May the strong prevail!</value>
+  </data>
+  <data name="ScoreTotalKilled" xml:space="preserve">
+    <value>Total killed</value>
+  </data>
+  <data name="ScoreVictory" xml:space="preserve">
+    <value>Victory</value>
+  </data>
+  <data name="ScoreYouEarnedGoldCoins" xml:space="preserve">
+    <value>You earned {0} gold coin(s)</value>
+  </data>
+  <data name="ScoreYouEarnedGoldCoinsTooltip" xml:space="preserve">
+    <value>You earned these gold coins for completing a new map.</value>
+  </data>
+  <data name="ScoreYouIncreasedSilverCoins" xml:space="preserve">
+    <value>You increased your silver yield for this map with {0} silver coin(s)</value>
+  </data>
+  <data name="ScoreYouIncreasedSilverCoinsTooltip" xml:space="preserve">
+    <value>Your previous silver yield for this map was {0}. You have now increased this value to {1}.</value>
+  </data>
+  <data name="SettingsNeedRestart" xml:space="preserve">
+    <value>The game needs to be restarted for the new settings to apply.</value>
+  </data>
+  <data name="SettingsNeedRestartTitle" xml:space="preserve">
+    <value>Needs program restart</value>
+  </data>
+  <data name="SoundAmbientVolume" xml:space="preserve">
+    <value>Ambient Volume</value>
+  </data>
+  <data name="SoundAudioDriver" xml:space="preserve">
+    <value>Audio Driver</value>
+  </data>
+  <data name="SoundEffectsVolume" xml:space="preserve">
+    <value>Sound Volume</value>
+  </data>
+  <data name="SoundMasterVolume" xml:space="preserve">
+    <value>Master Volume</value>
+  </data>
+  <data name="SoundMusicVolume" xml:space="preserve">
+    <value>Music Volume</value>
+  </data>
+  <data name="SoundSettingsTitle" xml:space="preserve">
+    <value>Sound Settings</value>
+  </data>
+  <data name="Tier1Name" xml:space="preserve">
+    <value>Southern Coastlines</value>
+  </data>
+  <data name="Tier2Name" xml:space="preserve">
+    <value>The Wetlands</value>
+  </data>
+  <data name="Tier3Name" xml:space="preserve">
+    <value>Duskhaven</value>
+  </data>
+  <data name="Tier4Name" xml:space="preserve">
+    <value>The Dead Marshes</value>
+  </data>
+  <data name="Tier5Name" xml:space="preserve">
+    <value>Western Highlands</value>
+  </data>
+  <data name="Tier6Name" xml:space="preserve">
+    <value>King's Plateau</value>
+  </data>
+  <data name="Tier7Name" xml:space="preserve">
+    <value>The Lost Valley</value>
+  </data>
+  <data name="Tier9Name" xml:space="preserve">
+    <value>Evil Eye Mountain</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="VideoAnimation" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="VideoAntiAliasing" xml:space="preserve">
+    <value>Anti-aliasing</value>
+  </data>
+  <data name="VideoLightingQuality" xml:space="preserve">
+    <value>Lighting Quality</value>
+  </data>
+  <data name="VideoOverallVideo" xml:space="preserve">
+    <value>Overall Video</value>
+  </data>
+  <data name="VideoResolution" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="VideoSettingsTitle" xml:space="preserve">
+    <value>Video Settings</value>
+  </data>
+  <data name="VideoShadowQuality" xml:space="preserve">
+    <value>Shadow Quality</value>
+  </data>
+  <data name="VideoTerrainQuality" xml:space="preserve">
+    <value>Terrain Quality</value>
+  </data>
+  <data name="VideoTextureFiltering" xml:space="preserve">
+    <value>Texture Filtering</value>
+  </data>
+  <data name="VideoVerticalSync" xml:space="preserve">
+    <value>Vertical Sync</value>
+  </data>
+  <data name="VideoWindowMode" xml:space="preserve">
+    <value>Window Mode</value>
+  </data>
+  <data name="ErrorOutOfVideoMemory" xml:space="preserve">
+    <value>You ran out of video memory. Try lowering the shadow quality settings and try again. Game is shutting down.</value>
+  </data>
+  <data name="GenLCBullets" xml:space="preserve">
+    <value>bullets</value>
+  </data>
+  <data name="GenLCHP" xml:space="preserve">
+    <value>hp</value>
+  </data>
+  <data name="GenLCMinuteShort" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="GenLCSecondsShort" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="GenLCTimeLeft" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="GenLCRage" xml:space="preserve">
+    <value>rage</value>
+  </data>
+  <data name="HUDMalariaWarning" xml:space="preserve">
+    <value>You have ventured too far out into the jungle and attracted a tropical disease. Get back to the main road before it kills you!</value>
+  </data>
+  <data name="HUDMalariaWarningTitle" xml:space="preserve">
+    <value>Malaria!</value>
+  </data>
+  <data name="HUDYouRanOutOfTime" xml:space="preserve">
+    <value>You ran out of time</value>
+  </data>
+  <data name="PressEscToSkip" xml:space="preserve">
+    <value>Press ESC to skip</value>
+  </data>
+  <data name="GenLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="GenName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GenNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="GenObjectives" xml:space="preserve">
+    <value>Objectives</value>
+  </data>
+  <data name="GenOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="GenProfile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="GenRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="GenUnavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="MenuBlasterDesc" xml:space="preserve">
+    <value>A hand mortar with great area of effect damage.</value>
+  </data>
+  <data name="MenuCannonDesc" xml:space="preserve">
+    <value>Shoots one heavy cannon ball with massive damage that penetrates just about anything.</value>
+  </data>
+  <data name="MenuConfirmPurchase" xml:space="preserve">
+    <value>Are you sure you want to unlock the {0} for {1} silver coins?</value>
+  </data>
+  <data name="MenuConfirmPurchaseTitle" xml:space="preserve">
+    <value>Confirm purchase</value>
+  </data>
+  <data name="MenuGatlingDesc" xml:space="preserve">
+    <value>Rapid fire weapon that consumes a lot of ammo.</value>
+  </data>
+  <data name="MenuGoldCoins" xml:space="preserve">
+    <value>Number of gold coins you have earned
+
+You earn more gold coins by completing maps</value>
+  </data>
+  <data name="MenuHammerDesc" xml:space="preserve">
+    <value>A slow and heavy weapon with short range, but massive damage.</value>
+  </data>
+  <data name="MenuMapCompleted" xml:space="preserve">
+    <value>You have completed this map</value>
+  </data>
+  <data name="MenuMapCompletionYield" xml:space="preserve">
+    <value>Completing this map will earn you {0} gold coin(s)</value>
+  </data>
+  <data name="MenuMapSilverRecord" xml:space="preserve">
+    <value>
+Silver coin record: {0}</value>
+  </data>
+  <data name="MenuMapUnavailable" xml:space="preserve">
+    <value>The selected map is unavailable in this version of the game</value>
+  </data>
+  <data name="MenuMapUnavailableTitle" xml:space="preserve">
+    <value>Map unavailable</value>
+  </data>
+  <data name="MenuNewProfile" xml:space="preserve">
+    <value>Create a new local Dead Meets Lead profile.</value>
+  </data>
+  <data name="MenuNewProfileTitle" xml:space="preserve">
+    <value>New profile</value>
+  </data>
+  <data name="MenuNoProfileSelected" xml:space="preserve">
+    <value>You have to select a profile first</value>
+  </data>
+  <data name="MenuNoProfileSelectedTitle" xml:space="preserve">
+    <value>No profile selected</value>
+  </data>
+  <data name="MenuNotEnoughCoinsTitle" xml:space="preserve">
+    <value>You can't afford that</value>
+  </data>
+  <data name="MenuNotEnoughGold" xml:space="preserve">
+    <value>You don't have enough gold coins (requires {0} gold coin(s))</value>
+  </data>
+  <data name="MenuNotEnoughSilver" xml:space="preserve">
+    <value>You don't have enough silver coins</value>
+  </data>
+  <data name="MenuRemoveProfile" xml:space="preserve">
+    <value>Are you sure you want to remove the following profile?
+
+{0}</value>
+  </data>
+  <data name="MenuRemoveProfileTitle" xml:space="preserve">
+    <value>Confirm profile removal</value>
+  </data>
+  <data name="MenuShotgunDesc" xml:space="preserve">
+    <value>Great allround weapon with good spread.</value>
+  </data>
+  <data name="MenuSilverCoins" xml:space="preserve">
+    <value>Number of silver coins you have earned
+
+You earn silver coins by killing zombies</value>
+  </data>
+  <data name="MenuSkipConfirmation" xml:space="preserve">
+    <value>You haven't completed {0} yet, are you sure you want to skip it?</value>
+  </data>
+  <data name="MenuSkipConfirmationTitle" xml:space="preserve">
+    <value>Skip {0}?</value>
+  </data>
+  <data name="MenuSpearDesc" xml:space="preserve">
+    <value>A long range melee weapon with limited damage.</value>
+  </data>
+  <data name="MenuSwordDesc" xml:space="preserve">
+    <value>Great allround weapon with medium range and damage.</value>
+  </data>
+  <data name="MenuUnlockMap" xml:space="preserve">
+    <value>Unlock '{0}'
+
+Price: {1} gold coin(s)</value>
+  </data>
+  <data name="MenuWeaponPrice" xml:space="preserve">
+    <value>{0}
+
+Price: {1} silver coins
+
+Click to purchase</value>
+  </data>
+  <data name="MenuWepAlreadyBought" xml:space="preserve">
+    <value>{0}
+
+This weapon is already available to you. You can choose to use it the next time you start a map.</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ScoreKilledYourself" xml:space="preserve">
+    <value>You killed yourself</value>
+  </data>
+  <data name="ScoreKilledByMalaria" xml:space="preserve">
+    <value>You died from malaria</value>
+  </data>
+  <data name="ScoreKilledByAnEnemy" xml:space="preserve">
+    <value>You were killed by an enemy</value>
+  </data>
+  <data name="GenLogout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="GenNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="GenYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ErrorBadVideoCard" xml:space="preserve">
+    <value>Your graphics card does not meet the minimum requirements. Do you want to continue anyway?</value>
+  </data>
+  <data name="GenWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="AudioAmbientToolTip" xml:space="preserve">
+    <value>Adjusts the volume of ambient sound effects.</value>
+  </data>
+  <data name="AudioDriverToolTip" xml:space="preserve">
+    <value>Decides which audio device drivers to use.</value>
+  </data>
+  <data name="AudioMasterToolTip" xml:space="preserve">
+    <value>Adjusts the volume of all sound.</value>
+  </data>
+  <data name="AudioMusicToolTip" xml:space="preserve">
+    <value>Adjusts the volume of the music.</value>
+  </data>
+  <data name="AudioSoundEffectsToolTip" xml:space="preserve">
+    <value>Adjusts the volume of the sound effects.</value>
+  </data>
+  <data name="VideoAnimationToolTip" xml:space="preserve">
+    <value>Increasing animation quality will result in more game entities being animated.</value>
+  </data>
+  <data name="VideoAntiAliasingToolTip" xml:space="preserve">
+    <value>Removes rough edges.</value>
+  </data>
+  <data name="VideoDisplayModeToolTip" xml:space="preserve">
+    <value>Tip: Fullscreen often increase frame rates.</value>
+  </data>
+  <data name="VideoLightingToolTip" xml:space="preserve">
+    <value>Increasing lighting quality will add more complex lighting to the scene.</value>
+  </data>
+  <data name="VideoOverallToolTip" xml:space="preserve">
+    <value>Higher quality reduces performance but increases visual appeal. Changing this affects all video quality settings.</value>
+  </data>
+  <data name="VideoResolutionToolTip" xml:space="preserve">
+    <value>Changes the resolution of the screen (only available in real fullscreen).</value>
+  </data>
+  <data name="VideoShadowsToolTip" xml:space="preserve">
+    <value>Higher quality results in sharper shadows.</value>
+  </data>
+  <data name="VideoTerrainToolTip" xml:space="preserve">
+    <value>More terrain and foliage will be added.</value>
+  </data>
+  <data name="VideoTextureFilterToolTip" xml:space="preserve">
+    <value>Increases the visual appeal of textures.</value>
+  </data>
+  <data name="VideoVerticalSyncToolTip" xml:space="preserve">
+    <value>Synchronizes the frame rate to the update frequency of your monitor.</value>
+  </data>
+  <data name="GenStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="MapGoodLuckCaptain" xml:space="preserve">
+    <value>Good luck, Captain!</value>
+  </data>
+  <data name="MapSelectedWeapons" xml:space="preserve">
+    <value>Selected weapons</value>
+  </data>
+  <data name="VideoEnumHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="VideoEnumHighest" xml:space="preserve">
+    <value>Highest</value>
+  </data>
+  <data name="VideoEnumLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="VideoEnumLowest" xml:space="preserve">
+    <value>Lowest</value>
+  </data>
+  <data name="VideoEnumMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="VideoEnumNoShadows" xml:space="preserve">
+    <value>No Shadows</value>
+  </data>
+  <data name="GenNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="VideoEnumCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="VideoEnumFullscreen" xml:space="preserve">
+    <value>Fullscreen</value>
+  </data>
+  <data name="VideoEnumFullscreenWindowed" xml:space="preserve">
+    <value>Fullscreen Windowed</value>
+  </data>
+  <data name="VideoEnumUltra" xml:space="preserve">
+    <value>Ultra</value>
+  </data>
+  <data name="VideoEnumWindowed" xml:space="preserve">
+    <value>Windowed</value>
+  </data>
+  <data name="VideoFilteringAnisotropic16x" xml:space="preserve">
+    <value>Anisotropic 16x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic2x" xml:space="preserve">
+    <value>Anisotropic 2x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic4x" xml:space="preserve">
+    <value>Anisotropic 4x</value>
+  </data>
+  <data name="VideoFilteringAnisotropic8x" xml:space="preserve">
+    <value>Anisotropic 8x</value>
+  </data>
+  <data name="VideoFilteringBilinear" xml:space="preserve">
+    <value>Bilinear</value>
+  </data>
+  <data name="VideoFilteringTrilinear" xml:space="preserve">
+    <value>Trilinear</value>
+  </data>
+  <data name="VideoVSyncOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="VideoVSyncOn" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="VideoEnumAntiAliasing" xml:space="preserve">
+    <value>{0}x</value>
+  </data>
+  <data name="ControlJump" xml:space="preserve">
+    <value>Jump</value>
+  </data>
+  <data name="GenLoadingDots" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="MenuAchievements" xml:space="preserve">
+    <value>Achievements</value>
+  </data>
+  <data name="MenuArmory" xml:space="preserve">
+    <value>Armory</value>
+  </data>
+  <data name="HUDRageLevelX" xml:space="preserve">
+    <value>Rage level {0}!</value>
+  </data>
+  <data name="HUDStageAmmo" xml:space="preserve">
+    <value>Ammo</value>
+  </data>
+  <data name="HUDStageCompleted" xml:space="preserve">
+    <value>COMPLETED</value>
+  </data>
+  <data name="HUDStageHP" xml:space="preserve">
+    <value>HP</value>
+  </data>
+  <data name="HUDStageRage" xml:space="preserve">
+    <value>Rage</value>
+  </data>
+  <data name="HUDStageTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="HUDStageX" xml:space="preserve">
+    <value>Stage {0}</value>
+  </data>
+  <data name="HUDWarnNotEnoughAmmo" xml:space="preserve">
+    <value>Not enough ammo</value>
+  </data>
+  <data name="HUDWarnNotEnoughRage" xml:space="preserve">
+    <value>Not enough rage</value>
+  </data>
+  <data name="HUDWarnOnCooldown" xml:space="preserve">
+    <value>You cannot do this yet</value>
+  </data>
+  <data name="HUDWarnTooClose" xml:space="preserve">
+    <value>You are too close</value>
+  </data>
+  <data name="ScoreKilledByPiranhas" xml:space="preserve">
+    <value>You were eaten by piranhas</value>
+  </data>
+  <data name="StatsCaughtInNet" xml:space="preserve">
+    <value>Caught in net</value>
+  </data>
+  <data name="StatsDamageDealt" xml:space="preserve">
+    <value>Damage dealt</value>
+  </data>
+  <data name="StatsDamageTaken" xml:space="preserve">
+    <value>Damage taken</value>
+  </data>
+  <data name="StatsHitsTaken" xml:space="preserve">
+    <value>Hits taken</value>
+  </data>
+  <data name="StatsTitle" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="StatsUnitsKilled" xml:space="preserve">
+    <value>Total units killed</value>
+  </data>
+  <data name="WeaponBlaster" xml:space="preserve">
+    <value>Blaster</value>
+  </data>
+  <data name="WeaponCannon" xml:space="preserve">
+    <value>Cannon</value>
+  </data>
+  <data name="WeaponGatling" xml:space="preserve">
+    <value>Gatling Gun</value>
+  </data>
+  <data name="WeaponHammer" xml:space="preserve">
+    <value>Hammer</value>
+  </data>
+  <data name="WeaponRifle" xml:space="preserve">
+    <value>Rifle</value>
+  </data>
+  <data name="WeaponSpear" xml:space="preserve">
+    <value>Spear</value>
+  </data>
+  <data name="WeaponSword" xml:space="preserve">
+    <value>Sword</value>
+  </data>
+  <data name="AchiFeedTheFishes" xml:space="preserve">
+    <value>Feed the fishes</value>
+  </data>
+  <data name="AchiFindTinyTom" xml:space="preserve">
+    <value>Find Tiny Tom.</value>
+  </data>
+  <data name="AchiMakePiranasKill10Zombies" xml:space="preserve">
+    <value>Make piranhas kill 10 zombies during a single try.</value>
+  </data>
+  <data name="AchiTinyTom" xml:space="preserve">
+    <value>Tiny Tom</value>
+  </data>
+  <data name="MenuUnableToLoadProfile" xml:space="preserve">
+    <value>Unable to load profile</value>
+  </data>
+  <data name="MenuUnableToLoadProfileDetails" xml:space="preserve">
+    <value>The profile file has been corrupted</value>
+  </data>
+  <data name="AchiFindTomsDog" xml:space="preserve">
+    <value>Find Tiny Tom's dog</value>
+  </data>
+  <data name="AchiTomsDog" xml:space="preserve">
+    <value>Lazarus</value>
+  </data>
+  <data name="HUDMalaria" xml:space="preserve">
+    <value>Malaria</value>
+  </data>
+  <data name="GenSupport" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="AchiCloseAllDoorsOnLevelC" xml:space="preserve">
+    <value>Close all doors on "Ancient City".</value>
+  </data>
+  <data name="AchiCompleteArenaWithoutHit" xml:space="preserve">
+    <value>Complete "The Arena" without taking a hit.</value>
+  </data>
+  <data name="AchiLimitingYourChoises" xml:space="preserve">
+    <value>Limiting your choices</value>
+  </data>
+  <data name="AchiNotAScrath" xml:space="preserve">
+    <value>Not a scratch</value>
+  </data>
+  <data name="AchiHonorThePiranas" xml:space="preserve">
+    <value>Honor the piranhas</value>
+  </data>
+  <data name="AchiMakeAllBullsDieFromPiranas" xml:space="preserve">
+    <value>Make piranhas kill all bulls on "Into the shadows".</value>
+  </data>
+  <data name="MenuBannedKey" xml:space="preserve">
+    <value>Your product key has been banned. Please contact us at support@deadmeetslead.com if you feel this is an error, or try to enter the key again.</value>
+  </data>
+  <data name="MenuBannedKeyTitle" xml:space="preserve">
+    <value>Banned product key</value>
+  </data>
+  <data name="MenuNoValidKey" xml:space="preserve">
+    <value>Please enter your product key.</value>
+  </data>
+  <data name="MenuNoValidKeyTitle" xml:space="preserve">
+    <value>Product activation</value>
+  </data>
+  <data name="MenuNewVersionAvailable" xml:space="preserve">
+    <value>Would you like to download and install it now?</value>
+  </data>
+  <data name="MenuNewVersionAvailableTitle" xml:space="preserve">
+    <value>New version available!</value>
+  </data>
+  <data name="MenuUnknownLanguage" xml:space="preserve">
+    <value>Your license key is valid for a language not supported by this game version. Please install the latest version of the game.</value>
+  </data>
+  <data name="MenuUnknownLanguageTitle" xml:space="preserve">
+    <value>Unknown language</value>
+  </data>
+  <data name="MenuInvalidKey" xml:space="preserve">
+    <value>The key you entered was not valid.</value>
+  </data>
+  <data name="MenuInvalidKeyTitle" xml:space="preserve">
+    <value>Invalid key</value>
+  </data>
+  <data name="MenuSkipTutorial" xml:space="preserve">
+    <value>the tutorial</value>
+  </data>
+  <data name="MenuSkipTutorial2" xml:space="preserve">
+    <value>the advanced tutorial</value>
+  </data>
+  <data name="AchiAvoidGettingCaughtInAnyNetOnLevelQ" xml:space="preserve">
+    <value>Avoid getting caught in a net on "The Horde".</value>
+  </data>
+  <data name="AchiSlipperyNipple" xml:space="preserve">
+    <value>Slippery nipple</value>
+  </data>
+  <data name="AchiCompleteAdvancedTutorialWithoutKillingAnyGrunts" xml:space="preserve">
+    <value>Complete "Advanced Tutorial" without killing any grunts.</value>
+  </data>
+  <data name="AchiRottensForDinner" xml:space="preserve">
+    <value>Rotten for dinner</value>
+  </data>
+  <data name="ErrorUnableToConnect" xml:space="preserve">
+    <value>Unable to connect</value>
+  </data>
+  <data name="MenuGameCompletedDialogText" xml:space="preserve">
+    <value>You have now completed Dead Meets Lead! There's more though; get started by checking out the achievements in the lower right corner of the map. Which ones can you complete?</value>
+  </data>
+  <data name="MenuGameCompletedDialogTitle" xml:space="preserve">
+    <value>Congratulations</value>
+  </data>
+  <data name="MenuMoreNews" xml:space="preserve">
+    <value>More news...</value>
+  </data>
+  <data name="MenuNews" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="GenRateMap" xml:space="preserve">
+    <value>Rate map</value>
+  </data>
+  <data name="GenReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="GenSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="MapRatingCommentsLabel" xml:space="preserve">
+    <value>Comments/Notes/Bugs:</value>
+  </data>
+  <data name="MapRatingDifficulty" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="MapRatingEntertainment" xml:space="preserve">
+    <value>Entertainment</value>
+  </data>
+  <data name="MapRatingHeader" xml:space="preserve">
+    <value>For me, this map was...</value>
+  </data>
+  <data name="MapRatingLength" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="MapRatingNotFun" xml:space="preserve">
+    <value>Not fun</value>
+  </data>
+  <data name="MapRatingTooEasy" xml:space="preserve">
+    <value>Too easy</value>
+  </data>
+  <data name="MapRatingTooHard" xml:space="preserve">
+    <value>Too hard</value>
+  </data>
+  <data name="MapRatingTooLong" xml:space="preserve">
+    <value>Too long</value>
+  </data>
+  <data name="MapRatingTooShort" xml:space="preserve">
+    <value>Too short</value>
+  </data>
+  <data name="MapRatingVeryFun" xml:space="preserve">
+    <value>Very fun</value>
+  </data>
+  <data name="GenLeftMouse" xml:space="preserve">
+    <value>Left Mouse</value>
+  </data>
+  <data name="GenMiddleMouse" xml:space="preserve">
+    <value>Middle Mouse</value>
+  </data>
+  <data name="GenRightMouse" xml:space="preserve">
+    <value>Right Mouse</value>
+  </data>
+  <data name="Abaddon" xml:space="preserve">
+    <value>ABADDON</value>
+  </data>
+  <data name="AbaddonText" xml:space="preserve">
+    <value>LORD OF THE BOTTOMLESS PIT</value>
+  </data>
+  <data name="Brutus" xml:space="preserve">
+    <value>BRUTUS</value>
+  </data>
+  <data name="BrutusText" xml:space="preserve">
+    <value>KING OF THE ZOMBIES</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>WOLF</value>
+  </data>
+  <data name="WolfText" xml:space="preserve">
+    <value>BIGGEST AND BADDEST</value>
+  </data>
+</root>

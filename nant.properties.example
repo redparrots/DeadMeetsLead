@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<project>
+	<property name="nant.contrib.dir" value="C:/Program Files/nant-0.92-rc1/nantcontrib-0.92/bin/NAnt.Contrib.Tasks.dll" />
+</project>

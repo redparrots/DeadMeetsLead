@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<project name="DeadMeetsLead" default="run">
+
+	<if test="${not file::exists('nant.properties')}">
+		<fail message="No nant.properties file found, please create one. See nant.properties.example for an example file." />
+	</if>
+
+	<include buildfile="nant.properties" />
+	<loadtasks assembly="${nant.contrib.dir}" />
+    
+	<property name="dest.build.dir" value="InstallerWorkingDirectory" />
+	<property name="build.constants" value="" />
+		
+	<target name="create.installer" depends="create.intermediatedir">
+		<exec program="iscc" workingdir="Installer" commandline="DMLFullInstallerScript.iss" />
+	</target>
+	
+	<target name="create.intermediatedir">
+		<property name="configuration" value="Release" />
+		<property name="src.settings.file" value="FullSettings.json" />
+		<property name="dest.settings.file" value="DefaultSettings.json" />
+		<call target="build" />
+	</target>
+	
+	<target name="create.recording.intermediatedir">
+		<property name="configuration" value="Release" />
+		<property name="src.settings.file" value="RecordingSettings.xml" />
+		<property name="dest.settings.file" value="DefaultSettings.xml" />
+		<call target="build" />
+	</target>
+	
+	<target name="build">
+		<delete dir="${dest.build.dir}" />
+		<mkdir dir="${dest.build.dir}" />
+		<msbuild project="Client\Client.csproj">
+			<property name="configuration" value="${configuration}" />
+			<property name="platform" value="x86" />
+			<property name="outputpath" value="../${dest.build.dir}" />
+			<property name="defineconstants" value="${build.constants}" />
+		</msbuild>
+		<msbuild project="Editor\Editor.csproj">
+			<property name="configuration" value="${configuration}" />
+			<property name="platform" value="x86" />
+			<property name="outputpath" value="../${dest.build.dir}" />
+			<property name="defineconstants" value="${build.constants}" />
+		</msbuild>
+		<delete>
+			 <fileset basedir="${dest.build.dir}">
+				<include name="*.pdb" />
+			</fileset>
+		</delete>
+		<call target="create.content.kel" />
+	</target>
+	
+	<target name="create.content.kel">
+		<copy todir="${dest.build.dir}/Data" >
+			<fileset basedir="WorkingDirectory/Data">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${dest.build.dir}/Maps" >
+			<fileset basedir="WorkingDirectory/Maps">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<zip zipfile="${dest.build.dir}/Data.kel">
+			<fileset basedir="${dest.build.dir}/Data">
+				<include name="**/*" />
+			</fileset>
+		</zip>
+		<delete dir=".\${dest.build.dir}\Data" />
+		<delete dir=".\${dest.build.dir}\sv" />
+	</target>
+	
+    <target name="run">
+		<echo message="Run 'nant create.intermediatedir' to create the IntermediateWorkingDirectory" />
+		<echo message="Run 'nant create.installer' to create an installer" />
+    </target>
+</project>
