@@ -76,7 +76,9 @@ namespace Common
         {
             public bool FileExists(string subPath)
             {
-                return File.Exists(subPath);
+                if (subPath.EndsWith("/*")) 
+                    return Directory.Exists(subPath.Substring(0, subPath.Length - 2));
+                return File.Exists(subPath) || Directory.Exists(subPath);
             }
 
             public ZipPathHandler OpenZipFile(string subPath)

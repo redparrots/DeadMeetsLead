@@ -471,14 +471,14 @@ namespace Graphics.Editors
                     SoftwareTexture[0][y, x] = v1;
                 }
 
-            if (Texture9 != null && Texture9[0] != null)
+            if (Texture9 != null && Texture9.Length > 0 && Texture9[0] != null)
             {
                 Rectangle r = new Rectangle(xStart, yStart, xEnd - xStart, yEnd - yStart);
                 var dr = Texture9[0].LockRectangle(0, r, SlimDX.Direct3D9.LockFlags.None);
                 SoftwareTexture[0].WriteRect(dr, r);
                 Texture9[0].UnlockRectangle(0);
             }
-            if (Texture9 != null && Texture9[1] != null)
+            if (Texture9 != null && Texture9.Length > 1 && Texture9[1] != null)
             {
                 Rectangle r = new Rectangle(xStart, yStart, xEnd - xStart, yEnd - yStart);
                 var dr = Texture9[1].LockRectangle(0, r, SlimDX.Direct3D9.LockFlags.None);
