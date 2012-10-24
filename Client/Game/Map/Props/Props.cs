@@ -74,33 +74,6 @@ namespace Client.Game.Map.Props
     }
 
     [EditorDeployable(Group = "Props"), Serializable]
-    class SkyPlane : Prop
-    {
-        public SkyPlane()
-        {
-            MainGraphic = new MetaModel
-            {
-                XMesh = new MeshFromFile("Models/Props/Sky1.x"),
-                Texture = new TextureFromFile("Models/Props/Cinematic4Sky1.png"),
-                World = Matrix.Scaling(0.1f, 0.1f, 0.1f) * SkinnedMesh.InitSkinnedMeshFromMaya,
-                ReceivesAmbientLight = Priority.Never,
-                ReceivesDiffuseLight = Priority.Never,
-                ReceivesShadows = Priority.Never,
-                ReceivesFog = false,
-            };
-
-            //VisibilityLocalBounding = CreateBoundingBoxFromModel((MetaModel)Graphic);
-            VisibilityLocalBounding = new Common.Bounding.NonfittableBounding(new BoundingBox(new Vector3(-1000, -1000, -1000), new Vector3(1000, 1000, 1000)), false, true);
-            PickingLocalBounding = CreateBoundingMeshFromModel((MetaModel)MainGraphic);
-            PhysicsLocalBounding = null;
-            EditorPlacementLocalBounding = new Common.Bounding.Cylinder(Vector3.Zero, 3, 1f);
-            EditorRandomRotation = true;
-        }
-        public override float EditorMinRandomScale { get { return 1; } }
-        public override float EditorMaxRandomScale { get { return 1; } }
-    }
-
-    [EditorDeployable(Group = "Props"), Serializable]
     class Chicken1 : Prop
     {
         public Chicken1()
