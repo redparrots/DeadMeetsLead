@@ -6,7 +6,7 @@ Getting started
 ---------------
 
 ### Prerequisites:
-* Visual Studio 2010 ([Express](http://www.microsoft.com/visualstudio/en-us/products/2010-editions/express) or any other version).
+* Visual Studio 2010 or 2012 (works with Express and upwards, for instance [Visual Studio Express 2012 for Windows Desktop](http://www.microsoft.com/visualstudio/eng/downloads#d-2012-express)).
 * [SlimDX developer SDK January 2012](http://slimdx.org/download.php)
 * [DirectX SDK Jun 2010](http://www.microsoft.com/en-us/download/details.aspx?id=6812)
 
