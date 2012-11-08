@@ -132,8 +132,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{C6913286-7A1B-4661-A505-0EBFDC769E01}</Project>
+    <ProjectReference Include="..\Furie\Common\Common.csproj">
+      <Project>{c6913286-7a1b-4661-a505-0ebfdc769e01}</Project>
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,3 +1,6 @@
 [submodule "WorkingDirectory"]
 	path = WorkingDirectory
 	url = https://github.com/Keldyn/DeadMeetsLeadContent
+[submodule "Furie"]
+	path = Furie
+	url = git://github.com/Keldyn/Furie.git

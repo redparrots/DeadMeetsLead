@@ -104,14 +104,6 @@
       <Project>{1B1F6F51-825B-4161-8826-AD795ECCE3F7}</Project>
       <Name>Client</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Graphics\Graphics.csproj">
-      <Project>{DAC02AF9-F07E-4117-B5B3-20A659F694C4}</Project>
-      <Name>Graphics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\JMOD\JMOD.csproj">
-      <Project>{767B4EA8-7FC9-4141-A810-E174D75DA1FA}</Project>
-      <Name>JMOD</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
