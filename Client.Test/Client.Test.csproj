@@ -102,21 +102,13 @@
       <Project>{1B1F6F51-825B-4161-8826-AD795ECCE3F7}</Project>
       <Name>Client</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{C6913286-7A1B-4661-A505-0EBFDC769E01}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FeedbackCommon\FeedbackCommon.csproj">
       <Project>{43FBE879-F830-4984-960B-209A22FD2D87}</Project>
       <Name>FeedbackCommon</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Graphics\Graphics.csproj">
-      <Project>{DAC02AF9-F07E-4117-B5B3-20A659F694C4}</Project>
+    <ProjectReference Include="..\Furie\Graphics\Graphics.csproj">
+      <Project>{dac02af9-f07e-4117-b5b3-20a659f694c4}</Project>
       <Name>Graphics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\JMOD\JMOD.csproj">
-      <Project>{767B4EA8-7FC9-4141-A810-E174D75DA1FA}</Project>
-      <Name>JMOD</Name>
     </ProjectReference>
     <ProjectReference Include="..\Locale\Locale.csproj">
       <Project>{97FC1BD2-39CA-464B-B14D-4D6DC4685999}</Project>

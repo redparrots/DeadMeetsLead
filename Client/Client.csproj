@@ -322,21 +322,25 @@
     <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{C6913286-7A1B-4661-A505-0EBFDC769E01}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FeedbackCommon\FeedbackCommon.csproj">
       <Project>{43FBE879-F830-4984-960B-209A22FD2D87}</Project>
       <Name>FeedbackCommon</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Graphics\Graphics.csproj">
-      <Project>{DAC02AF9-F07E-4117-B5B3-20A659F694C4}</Project>
+    <ProjectReference Include="..\Furie\Common\Common.csproj">
+      <Project>{c6913286-7a1b-4661-a505-0ebfdc769e01}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Furie\Graphics\Graphics.csproj">
+      <Project>{dac02af9-f07e-4117-b5b3-20a659f694c4}</Project>
       <Name>Graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JMOD\JMOD.csproj">
-      <Project>{767B4EA8-7FC9-4141-A810-E174D75DA1FA}</Project>
+    <ProjectReference Include="..\Furie\JMOD\JMOD.csproj">
+      <Project>{767b4ea8-7fc9-4141-a810-e174d75da1fa}</Project>
       <Name>JMOD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Furie\Shaders\Shaders.csproj">
+      <Project>{b6338bf2-888f-49bc-ab96-97ced730b866}</Project>
+      <Name>Shaders</Name>
     </ProjectReference>
     <ProjectReference Include="..\Locale\Locale.csproj">
       <Project>{97FC1BD2-39CA-464B-B14D-4D6DC4685999}</Project>

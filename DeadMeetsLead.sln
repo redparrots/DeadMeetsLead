@@ -5,105 +5,105 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Editor\Editor.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{1B1F6F51-825B-4161-8826-AD795ECCE3F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics", "Graphics\Graphics.csproj", "{DAC02AF9-F07E-4117-B5B3-20A659F694C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics", "Furie\Graphics\Graphics.csproj", "{DAC02AF9-F07E-4117-B5B3-20A659F694C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C6913286-7A1B-4661-A505-0EBFDC769E01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Furie\Common\Common.csproj", "{C6913286-7A1B-4661-A505-0EBFDC769E01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackCommon", "FeedbackCommon\FeedbackCommon.csproj", "{43FBE879-F830-4984-960B-209A22FD2D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaders", "Shaders\Shaders.csproj", "{B6338BF2-888F-49BC-AB96-97CED730B866}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaders", "Furie\Shaders\Shaders.csproj", "{B6338BF2-888F-49BC-AB96-97CED730B866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMOD", "JMOD\JMOD.csproj", "{767B4EA8-7FC9-4141-A810-E174D75DA1FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMOD", "Furie\JMOD\JMOD.csproj", "{767B4EA8-7FC9-4141-A810-E174D75DA1FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locale", "Locale\Locale.csproj", "{97FC1BD2-39CA-464B-B14D-4D6DC4685999}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProjects", "TestProjects", "{5FE95F2B-72F5-4AA2-A3C5-48085059EA6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaChangeTest", "TestProjects\AlphaChangeTest\AlphaChangeTest.csproj", "{D6A2CA02-9215-4ECC-BAC3-973FEDA2F9F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaChangeTest", "Furie\TestProjects\AlphaChangeTest\AlphaChangeTest.csproj", "{D6A2CA02-9215-4ECC-BAC3-973FEDA2F9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationTest", "TestProjects\AnimationTest\AnimationTest.csproj", "{67877974-27EC-41F4-9226-E15396430767}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationTest", "Furie\TestProjects\AnimationTest\AnimationTest.csproj", "{67877974-27EC-41F4-9226-E15396430767}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxialBillboardTest", "TestProjects\AxialBillboardTest\AxialBillboardTest.csproj", "{6B1CF826-3E9C-4585-972B-FF44A3E916B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxialBillboardTest", "Furie\TestProjects\AxialBillboardTest\AxialBillboardTest.csproj", "{6B1CF826-3E9C-4585-972B-FF44A3E916B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDevice", "TestProjects\BasicDevice\BasicDevice.csproj", "{3F726727-6B38-4C9D-AEE7-8CF63DA3C7DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDevice", "Furie\TestProjects\BasicDevice\BasicDevice.csproj", "{3F726727-6B38-4C9D-AEE7-8CF63DA3C7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillboardTest", "TestProjects\BillboardTest\BillboardTest.csproj", "{36F7747E-398F-4A20-9366-46955787CFC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillboardTest", "Furie\TestProjects\BillboardTest\BillboardTest.csproj", "{36F7747E-398F-4A20-9366-46955787CFC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoundingVolumesRendererTest", "TestProjects\BoundingVolumesRendererTest\BoundingVolumesRendererTest.csproj", "{E6AF40DB-8AB6-4F10-A9F6-10414ADFA6A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoundingVolumesRendererTest", "Furie\TestProjects\BoundingVolumesRendererTest\BoundingVolumesRendererTest.csproj", "{E6AF40DB-8AB6-4F10-A9F6-10414ADFA6A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoroutineTest", "TestProjects\CoroutineTest\CoroutineTest.csproj", "{C3AC1271-D86E-4992-85FD-2396A7F0F244}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoroutineTest", "Furie\TestProjects\CoroutineTest\CoroutineTest.csproj", "{C3AC1271-D86E-4992-85FD-2396A7F0F244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODTest", "TestProjects\FMODTest\FMODTest.csproj", "{48A98C9B-7A54-4D98-A1EB-C81E70B64A4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODTest", "Furie\TestProjects\FMODTest\FMODTest.csproj", "{48A98C9B-7A54-4D98-A1EB-C81E70B64A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsSettingsTest", "TestProjects\GraphicsSettingsTest\GraphicsSettingsTest.csproj", "{4125A770-A39F-4E75-B068-4A51FCF145FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsSettingsTest", "Furie\TestProjects\GraphicsSettingsTest\GraphicsSettingsTest.csproj", "{4125A770-A39F-4E75-B068-4A51FCF145FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrassAndGroundTest", "TestProjects\GrassAndGroundTest\GrassAndGroundTest.csproj", "{C540B55B-D3A7-4D7A-902A-8DB9625785BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrassAndGroundTest", "Furie\TestProjects\GrassAndGroundTest\GrassAndGroundTest.csproj", "{C540B55B-D3A7-4D7A-902A-8DB9625785BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroundTextureEditor", "TestProjects\GroundTextureEditor\GroundTextureEditor.csproj", "{8D03E59A-AD3D-4A1B-AA5C-5981E515D7CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroundTextureEditor", "Furie\TestProjects\GroundTextureEditor\GroundTextureEditor.csproj", "{8D03E59A-AD3D-4A1B-AA5C-5981E515D7CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeightmapEditorTest", "TestProjects\HeightmapEditorTest\HeightmapEditorTest.csproj", "{819D1172-9124-4816-977E-E70CE0BD67D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeightmapEditorTest", "Furie\TestProjects\HeightmapEditorTest\HeightmapEditorTest.csproj", "{819D1172-9124-4816-977E-E70CE0BD67D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeightmapTest", "TestProjects\HeightmapTest\HeightmapTest.csproj", "{7B1E9537-FBE6-4F42-9787-AB025BCAFECA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeightmapTest", "Furie\TestProjects\HeightmapTest\HeightmapTest.csproj", "{7B1E9537-FBE6-4F42-9787-AB025BCAFECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndicesTest", "TestProjects\IndicesTest\IndicesTest.csproj", "{EEB0934B-998F-4313-8238-C5C989B8622C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndicesTest", "Furie\TestProjects\IndicesTest\IndicesTest.csproj", "{EEB0934B-998F-4313-8238-C5C989B8622C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputTest", "TestProjects\InputTest\InputTest.csproj", "{2261CADC-4BC1-43F3-8ADC-3F8FEEB38A1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputTest", "Furie\TestProjects\InputTest\InputTest.csproj", "{2261CADC-4BC1-43F3-8ADC-3F8FEEB38A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTest", "TestProjects\InterfaceTest\InterfaceTest.csproj", "{FD1FE748-9E71-4385-A9B1-61EF6427961C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTest", "Furie\TestProjects\InterfaceTest\InterfaceTest.csproj", "{FD1FE748-9E71-4385-A9B1-61EF6427961C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolatorTest", "TestProjects\InterpolatorTest\InterpolatorTest.csproj", "{3D37B97A-6A17-4B9F-B61A-75C56E859A91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolatorTest", "Furie\TestProjects\InterpolatorTest\InterpolatorTest.csproj", "{3D37B97A-6A17-4B9F-B61A-75C56E859A91}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMODTest", "TestProjects\JMODTest\JMODTest.csproj", "{3F64A7CB-1D9B-4938-8DB5-86B155353A1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeTest", "TestProjects\KDTreeTest\KDTreeTest.csproj", "{49D7E97F-AC14-4D74-8981-C2AD30161BDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeTest", "Furie\TestProjects\KDTreeTest\KDTreeTest.csproj", "{49D7E97F-AC14-4D74-8981-C2AD30161BDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutEngineTest", "TestProjects\LayoutEngineTest\LayoutEngineTest.csproj", "{062C5A84-10CD-402F-B087-DFB05596E86F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutEngineTest", "Furie\TestProjects\LayoutEngineTest\LayoutEngineTest.csproj", "{062C5A84-10CD-402F-B087-DFB05596E86F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshEditorTest", "TestProjects\NavMeshEditorTest\NavMeshEditorTest.csproj", "{B0CA7382-CDE8-4E2E-8B90-C90D68B23F80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshEditorTest", "Furie\TestProjects\NavMeshEditorTest\NavMeshEditorTest.csproj", "{B0CA7382-CDE8-4E2E-8B90-C90D68B23F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NearestNeighboursTest", "TestProjects\NearestNeighboursTest\NearestNeighboursTest.csproj", "{66D90B3D-DA16-4034-A1A9-DD347D91CCA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NearestNeighboursTest", "Furie\TestProjects\NearestNeighboursTest\NearestNeighboursTest.csproj", "{66D90B3D-DA16-4034-A1A9-DD347D91CCA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPathingTest", "TestProjects\NewPathingTest\NewPathingTest.csproj", "{DF0A52D1-72E3-4BD9-B15E-2398D90789CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPathingTest", "Furie\TestProjects\NewPathingTest\NewPathingTest.csproj", "{DF0A52D1-72E3-4BD9-B15E-2398D90789CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticleSystemTest", "TestProjects\ParticleSystemTest\ParticleSystemTest.csproj", "{35DD8421-087B-4260-98DA-562CC270B75A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticleSystemTest", "Furie\TestProjects\ParticleSystemTest\ParticleSystemTest.csproj", "{35DD8421-087B-4260-98DA-562CC270B75A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathingTest", "TestProjects\PathingTest\PathingTest.csproj", "{71BC2884-3E8A-4A23-9683-6C9E4C68BBA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathingTest", "Furie\TestProjects\PathingTest\PathingTest.csproj", "{71BC2884-3E8A-4A23-9683-6C9E4C68BBA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsProjectileTest", "TestProjects\PhysicsProjectileTest\PhysicsProjectileTest.csproj", "{56A78867-E43D-4E8D-8748-E5A25131D108}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsProjectileTest", "Furie\TestProjects\PhysicsProjectileTest\PhysicsProjectileTest.csproj", "{56A78867-E43D-4E8D-8748-E5A25131D108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsStaticTest", "TestProjects\PhysicsStaticTest\PhysicsStaticTest.csproj", "{38336233-5123-43F7-9B89-9FB442B52605}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsStaticTest", "Furie\TestProjects\PhysicsStaticTest\PhysicsStaticTest.csproj", "{38336233-5123-43F7-9B89-9FB442B52605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsThreadTest", "TestProjects\PhysicsThreadTest\PhysicsThreadTest.csproj", "{17785EC6-BB0D-4D9C-9EB2-074FFF877AAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsThreadTest", "Furie\TestProjects\PhysicsThreadTest\PhysicsThreadTest.csproj", "{17785EC6-BB0D-4D9C-9EB2-074FFF877AAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsUnitCollisionResolutionTest", "TestProjects\PhysicsUnitCollisionResolutionTest\PhysicsUnitCollisionResolutionTest.csproj", "{B6C13C4B-CCEC-42C7-BB57-15B0B5C60B80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsUnitCollisionResolutionTest", "Furie\TestProjects\PhysicsUnitCollisionResolutionTest\PhysicsUnitCollisionResolutionTest.csproj", "{B6C13C4B-CCEC-42C7-BB57-15B0B5C60B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsUnitMotionTest", "TestProjects\PhysicsUnitMotionTest\PhysicsUnitMotionTest.csproj", "{92CF5CDE-75B4-4454-8FA8-A2CF2747E881}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsUnitMotionTest", "Furie\TestProjects\PhysicsUnitMotionTest\PhysicsUnitMotionTest.csproj", "{92CF5CDE-75B4-4454-8FA8-A2CF2747E881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramCrashesAnalyser", "TestProjects\ProgramCrashesAnalyser\ProgramCrashesAnalyser.csproj", "{7FE1BC51-923B-4629-AFC7-925B9A62D067}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramCrashesAnalyser", "Furie\TestProjects\ProgramCrashesAnalyser\ProgramCrashesAnalyser.csproj", "{7FE1BC51-923B-4629-AFC7-925B9A62D067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadTreeTest", "TestProjects\QuadTreeTest\QuadTreeTest.csproj", "{D59DA6FA-E4ED-41A3-94A8-782895E28AA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadTreeTest", "Furie\TestProjects\QuadTreeTest\QuadTreeTest.csproj", "{D59DA6FA-E4ED-41A3-94A8-782895E28AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RendererCrusherTest", "TestProjects\RendererCrusherTest\RendererCrusherTest.csproj", "{B268729F-5682-422E-AA43-29E52AE08C18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RendererCrusherTest", "Furie\TestProjects\RendererCrusherTest\RendererCrusherTest.csproj", "{B268729F-5682-422E-AA43-29E52AE08C18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolutionsAvailableTest", "TestProjects\ResolutionsAvailableTest\ResolutionsAvailableTest.csproj", "{D8CA7DC2-BA04-4197-A478-EB5F74BC464B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolutionsAvailableTest", "Furie\TestProjects\ResolutionsAvailableTest\ResolutionsAvailableTest.csproj", "{D8CA7DC2-BA04-4197-A478-EB5F74BC464B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPTest", "TestProjects\SAPTest\SAPTest.csproj", "{FE82745F-8B75-47C4-A558-CBAF840A02E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPTest", "Furie\TestProjects\SAPTest\SAPTest.csproj", "{FE82745F-8B75-47C4-A558-CBAF840A02E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneEditorTest", "TestProjects\SceneEditorTest\SceneEditorTest.csproj", "{5AFEEBF0-226F-410F-8313-FA87582D5309}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneEditorTest", "Furie\TestProjects\SceneEditorTest\SceneEditorTest.csproj", "{5AFEEBF0-226F-410F-8313-FA87582D5309}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendStatistics", "TestProjects\SendStatistics\SendStatistics.csproj", "{634EE074-7E75-407C-B400-39ADCBCF68E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupEmptyResXFile", "TestProjects\SetupEmptyResXFile\SetupEmptyResXFile.csproj", "{AD377D14-E6E5-47DD-924C-9455DD6D678D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupEmptyResXFile", "Furie\TestProjects\SetupEmptyResXFile\SetupEmptyResXFile.csproj", "{AD377D14-E6E5-47DD-924C-9455DD6D678D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareTextureTest", "TestProjects\SoftwareTextureTest\SoftwareTextureTest.csproj", "{BFF0DA3C-BB28-4FAD-AB62-C2BA3B4DE8D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareTextureTest", "Furie\TestProjects\SoftwareTextureTest\SoftwareTextureTest.csproj", "{BFF0DA3C-BB28-4FAD-AB62-C2BA3B4DE8D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplatmapEditorTest", "TestProjects\SplatmapEditorTest\SplatmapEditorTest.csproj", "{F0148B71-5BE9-4889-913E-6721C8AF6107}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplatmapEditorTest", "Furie\TestProjects\SplatmapEditorTest\SplatmapEditorTest.csproj", "{F0148B71-5BE9-4889-913E-6721C8AF6107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplattingTest", "TestProjects\SplattingTest\SplattingTest.csproj", "{C4567B42-F78D-4FC7-8288-67E1843B78DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplattingTest", "Furie\TestProjects\SplattingTest\SplattingTest.csproj", "{C4567B42-F78D-4FC7-8288-67E1843B78DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechniqueGeneration", "TestProjects\TechniqueGeneration\TechniqueGeneration.csproj", "{F92B19B4-5737-49A9-BB11-BAD4DB7F1D2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechniqueGeneration", "Furie\TestProjects\TechniqueGeneration\TechniqueGeneration.csproj", "{F92B19B4-5737-49A9-BB11-BAD4DB7F1D2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAudio2Test", "TestProjects\XAudio2Test\XAudio2Test.csproj", "{23A51D44-E0F6-4A46-818B-49FAFD9CF042}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAudio2Test", "Furie\TestProjects\XAudio2Test\XAudio2Test.csproj", "{23A51D44-E0F6-4A46-818B-49FAFD9CF042}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Test", "Client.Test\Client.Test.csproj", "{71F10BAE-D42A-4F1D-93B8-A752310C1CA0}"
 EndProject
@@ -114,9 +114,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Test", "Common.Test\Common.Test.csproj", "{1DE6E370-E300-4707-9393-7BA79F7942F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Test", "Furie\Common.Test\Common.Test.csproj", "{1DE6E370-E300-4707-9393-7BA79F7942F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics.Test", "Graphics.Test\Graphics.Test.csproj", "{4AC23579-A223-4F8A-B0CF-30823833EEC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics.Test", "Furie\Graphics.Test\Graphics.Test.csproj", "{4AC23579-A223-4F8A-B0CF-30823833EEC4}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
